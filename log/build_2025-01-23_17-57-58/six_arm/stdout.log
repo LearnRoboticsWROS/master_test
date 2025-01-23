@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_controllers.launch.py
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot.urdf.xacro
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/custom_gripper.xacro
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/custom_robot_gazebo.xacro
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/link_joint.xacro
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/controllers.yaml
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/package_run_dependencies/six_arm
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/parent_prefix_path/six_arm
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/path.sh
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/path.dsv
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.bash
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.sh
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.zsh
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.dsv
+-- Symlinking: /home/fra/master_ws_test/install/six_arm/share/six_arm/package.dsv
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/packages/six_arm
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/cmake/six_armConfig.cmake
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/cmake/six_armConfig-version.cmake
+-- Up-to-date symlink: /home/fra/master_ws_test/install/six_arm/share/six_arm/package.xml

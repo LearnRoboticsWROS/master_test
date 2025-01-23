@@ -1,0 +1,9 @@
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/uninstall.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/six_arm_uninstall.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/test.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/edit_cache.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/rebuild_cache.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/list_install_components.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/install.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/install/local.dir
+/home/fra/master_ws_test/build/six_arm/CMakeFiles/install/strip.dir

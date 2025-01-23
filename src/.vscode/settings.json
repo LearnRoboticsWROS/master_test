@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/fra/master_ws_test/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/rqt_controller_manager/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/ros2controlcli/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/ros2_controllers_test_nodes/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/controller_manager/local/lib/python3.10/dist-packages",
+        "/home/fra/master_ws_test/install/ros2_control_demo_testing/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/fra/master_ws_test/install/control_msgs/local/lib/python3.10/dist-packages",
+        "/home/fra/master_ws_2/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages",
+        "/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/fra/master_ws_test/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/rqt_controller_manager/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/ros2controlcli/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/ros2_controllers_test_nodes/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/controller_manager/local/lib/python3.10/dist-packages",
+        "/home/fra/master_ws_test/install/ros2_control_demo_testing/lib/python3.10/site-packages",
+        "/home/fra/master_ws_test/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/fra/master_ws_test/install/control_msgs/local/lib/python3.10/dist-packages",
+        "/home/fra/master_ws_2/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/fra/ros2_ws/install/python_pkg/lib/python3.10/site-packages",
+        "/home/fra/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12
+Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12
+Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm
+Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm

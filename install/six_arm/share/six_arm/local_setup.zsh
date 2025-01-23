@@ -1,0 +1,1 @@
+/home/fra/master_ws_test/build/six_arm/ament_cmake_environment_hooks/local_setup.zsh

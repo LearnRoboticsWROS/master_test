@@ -1,0 +1,4 @@
+source;share/six_arm/local_setup.bash
+source;share/six_arm/local_setup.dsv
+source;share/six_arm/local_setup.sh
+source;share/six_arm/local_setup.zsh
