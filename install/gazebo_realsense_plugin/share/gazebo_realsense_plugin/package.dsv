@@ -1,0 +1,5 @@
+source;share/gazebo_realsense_plugin/local_setup.bash
+source;share/gazebo_realsense_plugin/local_setup.dsv
+source;share/gazebo_realsense_plugin/local_setup.ps1
+source;share/gazebo_realsense_plugin/local_setup.sh
+source;share/gazebo_realsense_plugin/local_setup.zsh

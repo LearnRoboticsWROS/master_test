@@ -197,6 +197,43 @@ six_arm_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/six_arm_uninstall.dir/build.make CMakeFiles/six_arm_uninstall.dir/build
 .PHONY : six_arm_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named joint_publisher
+
+# Build rule for target.
+joint_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joint_publisher
+.PHONY : joint_publisher
+
+# fast build rule for target.
+joint_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_publisher.dir/build.make CMakeFiles/joint_publisher.dir/build
+.PHONY : joint_publisher/fast
+
+src/joint_publisher.o: src/joint_publisher.cpp.o
+.PHONY : src/joint_publisher.o
+
+# target to build an object file
+src/joint_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_publisher.dir/build.make CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.o
+.PHONY : src/joint_publisher.cpp.o
+
+src/joint_publisher.i: src/joint_publisher.cpp.i
+.PHONY : src/joint_publisher.i
+
+# target to preprocess a source file
+src/joint_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_publisher.dir/build.make CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.i
+.PHONY : src/joint_publisher.cpp.i
+
+src/joint_publisher.s: src/joint_publisher.cpp.s
+.PHONY : src/joint_publisher.s
+
+# target to generate assembly for a file
+src/joint_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_publisher.dir/build.make CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.s
+.PHONY : src/joint_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... six_arm_uninstall"
 	@echo "... uninstall"
+	@echo "... joint_publisher"
+	@echo "... src/joint_publisher.o"
+	@echo "... src/joint_publisher.i"
+	@echo "... src/joint_publisher.s"
 .PHONY : help
 
 

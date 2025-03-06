@@ -1,0 +1,4 @@
+source;share/ind_environment/local_setup.bash
+source;share/ind_environment/local_setup.dsv
+source;share/ind_environment/local_setup.sh
+source;share/ind_environment/local_setup.zsh

@@ -1,0 +1,59 @@
+[0.016s] Invoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_test/src/ind_environment -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/ind_environment
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.207s] -- Detecting C compiler ABI info - done
+[0.221s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.222s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.323s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.720s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.817s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.916s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.917s] -- Added test 'lint_cmake' to check CMake code style
+[0.918s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.919s] -- Added test 'xmllint' to check XML markup files
+[0.920s] -- Configuring done
+[0.924s] -- Generating done
+[0.926s] -- Build files have been written to: /home/fra/master_ws_test/build/ind_environment
+[0.929s] Invoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_test/src/ind_environment -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/ind_environment
+[0.932s] Invoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j12 -l12
+[0.965s] Invoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j12 -l12
+[0.975s] Invoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment
+[0.982s] -- Install configuration: ""
+[0.982s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/launch
+[0.982s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/launch/world.launch.py
+[0.982s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models
+[0.982s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/support
+[0.983s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/support/model.sdf
+[0.983s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/support/model.config
+[0.983s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/red_cube
+[0.983s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/red_cube/model.sdf
+[0.983s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/red_cube/model.config
+[0.983s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/conveyor
+[0.983s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/conveyor/model.sdf
+[0.984s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/conveyor/model.config
+[0.984s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds
+[0.984s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace.world
+[0.984s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace_cube.world
+[0.984s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ament_index/resource_index/package_run_dependencies/ind_environment
+[0.984s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ament_index/resource_index/parent_prefix_path/ind_environment
+[0.984s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/ament_prefix_path.sh
+[0.985s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/ament_prefix_path.dsv
+[0.985s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/path.sh
+[0.985s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/path.dsv
+[0.985s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.bash
+[0.985s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.sh
+[0.985s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.zsh
+[0.985s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.dsv
+[0.986s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.dsv
+[0.986s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ament_index/resource_index/packages/ind_environment
+[0.986s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/cmake/ind_environmentConfig.cmake
+[0.986s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/cmake/ind_environmentConfig-version.cmake
+[0.986s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.xml
+[0.987s] Invoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment

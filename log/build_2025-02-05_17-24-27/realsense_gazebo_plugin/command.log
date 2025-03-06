@@ -1,0 +1,4 @@
+Invoking command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin': /usr/bin/cmake /home/fra/master_ws_test/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/realsense_gazebo_plugin
+Invoked command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake /home/fra/master_ws_test/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/realsense_gazebo_plugin
+Invoking command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/fra/master_ws_test/build/realsense_gazebo_plugin -- -j12 -l12
+Invoked command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin' returned '2': /usr/bin/cmake --build /home/fra/master_ws_test/build/realsense_gazebo_plugin -- -j12 -l12

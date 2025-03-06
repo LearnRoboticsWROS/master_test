@@ -1,0 +1,15 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+In file included from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:1[m[K:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/gazebo_ros_realsense.h:6:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+    6 | #include [01;31m[K<ros/ros.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/realsense_gazebo_plugin.dir/build.make:90: CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/realsense_gazebo_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

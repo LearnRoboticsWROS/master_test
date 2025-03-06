@@ -1,0 +1,128 @@
+[0.010s] Invoking command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin': /usr/bin/cmake /home/fra/master_ws_test/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/realsense_gazebo_plugin
+[0.087s] -- The C compiler identification is GNU 11.4.0
+[0.197s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.379s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.721s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.804s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.845s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.850s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.858s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.925s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.928s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.000s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.025s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.062s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.074s] -- Looking for pthread.h
+[1.155s] -- Looking for pthread.h - found
+[1.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.237s] -- Found Threads: TRUE  
+[1.293s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.301s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.302s] -- Checking for module 'bullet>=2.82'
+[1.312s] --   Found bullet, version 3.05
+[1.404s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.450s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.469s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.490s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.503s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.506s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.512s] -- Searching for dependencies of ignition-math6
+[1.513s] -- Looking for OGRE...
+[1.513s] -- OGRE_PREFIX_WATCH changed.
+[1.518s] -- Checking for module 'OGRE'
+[1.527s] --   Found OGRE, version 1.9.0
+[1.553s] -- Found Ogre Ghadamon (1.9.0)
+[1.560s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.569s] -- Looking for OGRE_Paging...
+[1.573s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.573s] -- Looking for OGRE_Terrain...
+[1.578s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.578s] -- Looking for OGRE_Property...
+[1.582s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.582s] -- Looking for OGRE_RTShaderSystem...
+[1.587s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.587s] -- Looking for OGRE_Volume...
+[1.591s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.591s] -- Looking for OGRE_Overlay...
+[1.596s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.698s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.699s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.700s] -- Searching for dependencies of ignition-transport8
+[1.715s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.724s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.729s] -- Checking for module 'libzmq >= 4'
+[1.740s] --   Found libzmq , version 4.3.4
+[1.768s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.772s] -- Checking for module 'uuid'
+[1.782s] --   Found uuid, version 2.37.2
+[1.809s] -- Found UUID: TRUE  
+[1.811s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.811s] -- Searching for dependencies of ignition-msgs5
+[1.831s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.836s] -- Checking for module 'tinyxml2'
+[1.847s] --   Found tinyxml2, version 9.0.0
+[1.875s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.877s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.877s] -- Searching for dependencies of ignition-common3
+[1.877s] -- Looking for dlfcn.h - found
+[1.878s] -- Looking for libdl - found
+[1.879s] -- Found DL: TRUE  
+[1.889s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.890s] -- Searching for <ignition-common3> component [graphics]
+[1.892s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.892s] -- Searching for dependencies of ignition-common3-graphics
+[1.893s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.895s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.895s] -- Searching for dependencies of ignition-fuel_tools4
+[1.957s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.964s] -- Checking for module 'jsoncpp'
+[1.975s] --   Found jsoncpp, version 1.9.5
+[2.001s] -- Found JSONCPP: TRUE  
+[2.006s] -- Checking for module 'libzip'
+[2.017s] --   Found libzip, version 1.7.3
+[2.044s] -- Found ZIP: TRUE  
+[2.044s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.045s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.045s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.048s] -- Gazebo version: 11.10
+[2.048s] -- Checking for module 'tbb'
+[2.060s] --   Found tbb, version 2021.5.0
+[2.092s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[2.161s] -- Found camera_info_manager: 3.1.10 (/opt/ros/humble/share/camera_info_manager/cmake)
+[2.178s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.259s] -- Configuring done
+[2.311s] -- Generating done
+[2.313s] [33mCMake Warning:
+[2.313s]   Manually-specified variables were not used by the project:
+[2.313s] 
+[2.313s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.314s] 
+[2.314s] [0m
+[2.319s] -- Build files have been written to: /home/fra/master_ws_test/build/realsense_gazebo_plugin
+[2.334s] Invoked command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake /home/fra/master_ws_test/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/realsense_gazebo_plugin
+[2.335s] Invoking command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/fra/master_ws_test/build/realsense_gazebo_plugin -- -j12 -l12
+[2.379s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o[0m
+[2.379s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o[0m
+[5.535s] In file included from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:1[m[K:
+[5.535s] [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/gazebo_ros_realsense.h:6:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[5.535s]     6 | #include [01;31m[K<ros/ros.h>[m[K
+[5.535s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[5.535s] compilation terminated.
+[5.555s] gmake[2]: *** [CMakeFiles/realsense_gazebo_plugin.dir/build.make:90: CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o] Error 1
+[5.555s] gmake[2]: *** Waiting for unfinished jobs....
+[18.805s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/realsense_gazebo_plugin.dir/all] Error 2
+[18.805s] gmake: *** [Makefile:146: all] Error 2
+[18.808s] Invoked command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin' returned '2': /usr/bin/cmake --build /home/fra/master_ws_test/build/realsense_gazebo_plugin -- -j12 -l12

@@ -188,19 +188,15 @@
 
     </ros2_control>
 
-    <!-- <gazebo>
-        <plugin name="gazebo_ros2_control" filename = "libgazebo_ros2_control.so">
-            
-            <parameters>$(find custom_robot_gazebo)/config/joint_controllers.yaml </parameters>
-            <ros debug="true" />
-        </plugin>
-    </gazebo> -->
+
 
 
     <gazebo>
         <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <!-- <ros>
+                <namespace>/cobot</namespace>
+            </ros> -->
             <robot_param>robot_description</robot_param>
-            <!-- <robot_param_node>robot_state_publisher</robot_param_node> -->
             <parameters>$(find six_arm)/config/controllers.yaml </parameters>
         </plugin>
     </gazebo>

@@ -1,0 +1,42 @@
+[0.015s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_test/src/cobot_ik -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/cobot_ik
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.323s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.655s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.781s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.877s] -- Added test 'lint_cmake' to check CMake code style
+[0.879s] -- Added test 'xmllint' to check XML markup files
+[0.880s] -- Configuring done
+[0.882s] -- Generating done
+[0.884s] -- Build files have been written to: /home/fra/master_ws_test/build/cobot_ik
+[0.888s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_test/src/cobot_ik -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/cobot_ik
+[0.889s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.919s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.920s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[0.926s] -- Install configuration: ""
+[0.926s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+[0.926s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+[0.927s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+[0.928s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+[0.928s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml
+[0.929s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik

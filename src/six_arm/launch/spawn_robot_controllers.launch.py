@@ -64,7 +64,6 @@ def generate_launch_description():
         package='controller_manager',
         executable='ros2_control_node',
         parameters=[{'robot_description': robot_description}, joint_controllers_file],
-        #parameters=[joint_controllers_file],
         output='screen',
         remappings=[
             ("~/robot_description", "/robot_description"),
@@ -76,14 +75,12 @@ def generate_launch_description():
         package='robot_state_publisher',
         executable='robot_state_publisher',
         parameters=[{'robot_description': robot_description}],
-        #parameters=[robot_description],
         output='screen'
     )
 
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        #arguments=["joint_state_broadcaster"],
         arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
         output="screen",
     )
@@ -91,7 +88,6 @@ def generate_launch_description():
     arm_position_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        #arguments=["arm_position_controller", "--param-file", joint_controllers_file],
         arguments=["arm_position_controller", "--controller-manager", "/controller_manager"],
         output="screen",
     )
@@ -110,6 +106,13 @@ def generate_launch_description():
         )
     )
 
+    # rqt_reconfigure = Node(
+    #     package='rqt_gui',
+    #     executable='rqt_gui',
+    #     #namespace='cobot',  # Namespace
+    #     output='screen'
+    # )
+
 
     # Launch Description
     ld.add_action(x_arg)
@@ -124,7 +127,7 @@ def generate_launch_description():
     ld.add_action(delay_arm_controller)
 
     # Aggiunta di RQT GUI (opzionale)
-    #ld.add_action(rqt_reconfigure)
+    # ld.add_action(rqt_reconfigure)
 
     return ld
 

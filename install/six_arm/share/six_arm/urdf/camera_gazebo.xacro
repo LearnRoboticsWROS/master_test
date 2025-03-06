@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+    <gazebo reference="camera_link" >
+       <material>Gazebo/Red</material>
+
+
+       
+    </gazebo>
+
+</robot>

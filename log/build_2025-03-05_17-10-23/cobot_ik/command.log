@@ -1,0 +1,6 @@
+Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_test/src/cobot_ik -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/cobot_ik
+Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_test/src/cobot_ik -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/cobot_ik
+Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik

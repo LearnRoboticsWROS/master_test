@@ -1,0 +1,2 @@
+Invoking command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/fra/master_ws_test/build/realsense_gazebo_plugin -- -j12 -l12
+Invoked command in '/home/fra/master_ws_test/build/realsense_gazebo_plugin' returned '2': /usr/bin/cmake --build /home/fra/master_ws_test/build/realsense_gazebo_plugin -- -j12 -l12

@@ -65,7 +65,7 @@
         </xacro:macro>
 
 
-    <gazebo>
+    <!-- <gazebo>
         <plugin name="gazebo_grasp_fix" filename="libgazebo_grasp_fix.so">
             <arm>
                 <arm_name>custom_gripper</arm_name>
@@ -81,7 +81,12 @@
         <disable_collisions_on_attach>false</disable_collisions_on_attach>
         <contact_topic>__default_topic__</contact_topic>
         </plugin>
+    </gazebo> -->
+
+    <gazebo>
+        <plugin name="link_attacher" filename="libgazebo_ros_link_attacher.so"/>
     </gazebo>
+
 
 
 </robot>

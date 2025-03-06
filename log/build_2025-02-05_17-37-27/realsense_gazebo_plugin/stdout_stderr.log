@@ -1,0 +1,169 @@
+[35m[1mConsolidate compiler generated dependencies of target realsense_gazebo_plugin[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o[0m
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:99:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   99 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:17:18:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   17 | namespace gazebo [01;36m[K{[m[K
+      |                  [01;36m[K^[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:[m[K In constructor ‘[01m[Kgazebo::RealSensePlugin::RealSensePlugin()[m[K’:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:20:46:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Node[m[K’ is not a direct base of ‘[01m[Kgazebo::RealSensePlugin[m[K’
+   20 | RealSensePlugin::RealSensePlugin() : rclcpp::[01;31m[KNode[m[K("realsense_plugin") {
+      |                                              [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h:27[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:6[m[K:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::RealSensePlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:31:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   31 |   RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "RealSensePlugin loaded into model %s", _model->GetName().c_str());
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:31:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:31:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "RealSensePlugin loaded into model %s", _model->GetName().c_str());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:31:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "RealSensePlugin loaded into model %s", _model->GetName().c_str());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:31:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "RealSensePlugin loaded into model %s", _model->GetName().c_str());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h:27[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:6[m[K:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:31:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   31 |   RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "RealSensePlugin loaded into model %s", _model->GetName().c_str());
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:31:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   31 |   RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "RealSensePlugin loaded into model %s", _model->GetName().c_str());
+      |                     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h:27[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:6[m[K:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:44:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   44 |     RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Cameras not found!");
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:44:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:44:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cameras not found!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:44:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cameras not found!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:44:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cameras not found!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h:27[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:6[m[K:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:44:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   44 |     RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Cameras not found!");
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:44:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   44 |     RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Cameras not found!");
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[KdepthPublisher_[m[K’
+   48 |   this->[01;31m[KdepthPublisher_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/camera/depth", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:48:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   48 |   this->depthPublisher_ = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("/camera/depth", 10);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:48:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   48 | hPublisher_ = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("/camera/depth", 10);
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:48:75:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   48 | ublisher_ = this->create_publisher<sensor_msgs::msg::Image>([01;35m[K"/camera/depth"[m[K, 10);
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[KcolorPublisher_[m[K’
+   49 |   this->[01;31m[KcolorPublisher_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/camera/color", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:49:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   49 |   this->colorPublisher_ = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("/camera/color", 10);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:49:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   49 | rPublisher_ = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("/camera/color", 10);
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:49:75:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   49 | ublisher_ = this->create_publisher<sensor_msgs::msg::Image>([01;35m[K"/camera/color"[m[K, 10);
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:52:68:[m[K [01;31m[Kerror: [m[K‘[01m[KOnNewColorFrame[m[K’ is not a member of ‘[01m[Kgazebo::RealSensePlugin[m[K’
+   52 | >colorCam->ConnectNewImageFrame(std::bind(&RealSensePlugin::[01;31m[KOnNewColorFrame[m[K, this));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::RealSensePlugin::OnNewDepthFrame()[m[K’:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:58:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[Know[m[K’
+   58 |   msg.header.stamp = this->[01;31m[Know[m[K();
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ has no member named ‘[01m[KdepthPublisher_[m[K’
+   73 |   this->[01;31m[KdepthPublisher_[m[K->publish(msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:[m[K At global scope:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:77:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::RealSensePlugin::OnNewColorFrame()[m[K’
+   77 | void [01;31m[KRealSensePlugin[m[K::OnNewColorFrame() {
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:77:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::RealSensePlugin::OnNewColorFrame()[m[K’
+In file included from [01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/RealSensePlugin.cpp:6[m[K:
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h:47:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::RealSensePlugin[m[K’ defined here
+   47 | class [01;36m[KRealSensePlugin[m[K : public ModelPlugin {
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:12:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string {anonymous}::extractCameraName(const string&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   12 | std::string [01;35m[KextractCameraName[m[K(const std::string &name);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:13:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::CameraInfo {anonymous}::cameraInfo(const Image&, float)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   13 | sensor_msgs::msg::CameraInfo [01;35m[KcameraInfo[m[K(const sensor_msgs::msg::Image &image,
+      |                              [01;35m[K^~~~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+gmake[2]: *** [CMakeFiles/realsense_gazebo_plugin.dir/build.make:76: CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:84:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::CameraInfo gazebo::{anonymous}::cameraInfo(const Image&, float)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   84 | sensor_msgs::msg::CameraInfo [01;35m[KcameraInfo[m[K(const sensor_msgs::msg::Image &image,
+      |                              [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/realsense_gazebo_plugin/src/gazebo_ros_realsense.cpp:73:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string gazebo::{anonymous}::extractCameraName(const string&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   73 | std::string [01;35m[KextractCameraName[m[K(const std::string &name) {
+      |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+gmake[2]: *** [CMakeFiles/realsense_gazebo_plugin.dir/build.make:90: CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/realsense_gazebo_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

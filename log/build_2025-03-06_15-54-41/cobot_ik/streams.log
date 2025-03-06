@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[7.305s] [100%] [32m[1mLinking CXX executable test_ik[0m
+[7.610s] [100%] Built target test_ik
+[7.619s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[7.622s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[7.628s] -- Install configuration: ""
+[7.628s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+[7.628s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik" to ""
+[7.628s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+[7.629s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+[7.629s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml
+[7.631s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik

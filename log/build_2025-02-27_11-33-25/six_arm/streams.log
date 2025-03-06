@@ -1,0 +1,56 @@
+[0.016s] Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_publisher.dir/src/joint_publisher.cpp.o[0m
+[4.210s] [100%] [32m[1mLinking CXX executable joint_publisher[0m
+[4.390s] [100%] Built target joint_publisher
+[4.399s] Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12
+[4.401s] Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm
+[4.406s] -- Install configuration: ""
+[4.407s] -- Installing: /home/fra/master_ws_test/install/six_arm/lib/six_arm/joint_publisher
+[4.408s] -- Set runtime path of "/home/fra/master_ws_test/install/six_arm/lib/six_arm/joint_publisher" to ""
+[4.408s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_traj_controllers.launch.py
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_eff_controllers.launch.py
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_camera_moveit.launch.py
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_controllers.launch.py
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_namespace.launch.py
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_camera.launch.py
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/red_cube.xacro
+[4.409s] -- Installing: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot_camera.urdf.xacro
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot_trajectory_control.urdf.xacro
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/check.urdf
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot.urdf.xacro
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/custom_robot_gazebo.xacro
+[4.409s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/custom_gripper.xacro
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot_effort.urdf.xacro
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/link_joint.xacro
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/camera.xacro
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/effort_controllers.yaml
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/trajectory_controllers.yaml
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/controllers.yaml
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/config.rviz
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/src
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/src/joint_publisher.cpp
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors
+[4.410s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera/kinetic.png
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera/kinetic.dae
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera/kinetic.stl
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/package_run_dependencies/six_arm
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/parent_prefix_path/six_arm
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/ament_prefix_path.sh
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/ament_prefix_path.dsv
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/path.sh
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/path.dsv
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.bash
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.sh
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.zsh
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.dsv
+[4.411s] -- Installing: /home/fra/master_ws_test/install/six_arm/share/six_arm/package.dsv
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/packages/six_arm
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/cmake/six_armConfig.cmake
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/cmake/six_armConfig-version.cmake
+[4.411s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/package.xml
+[4.412s] Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm

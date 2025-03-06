@@ -1,0 +1,16 @@
+/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+/home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+/home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+/home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml
