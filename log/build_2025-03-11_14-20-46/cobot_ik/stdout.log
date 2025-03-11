@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable pick_place[0m
+[100%] [32m[1mLinking CXX executable test_ik[0m
+[100%] Built target test_ik

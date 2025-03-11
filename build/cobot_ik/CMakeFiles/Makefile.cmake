@@ -1327,4 +1327,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/cobot_ik_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/test_ik.dir/DependInfo.cmake"
+  "CMakeFiles/pick_place.dir/DependInfo.cmake"
   )

@@ -1,0 +1,78 @@
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace()[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:16:88:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kshared_from_this[m[K’ is ambiguous
+   16 |         group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(this->[01;31m[Kshared_from_this[m[K(), "arm");
+      |                                                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = PickAndPlace][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = PickAndPlace][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:17:90:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kshared_from_this[m[K’ is ambiguous
+   17 |         gripper = std::make_shared<moveit::planning_interface::MoveGroupInterface>(this->[01;31m[Kshared_from_this[m[K(), "gripper");
+      |                                                                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = PickAndPlace][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = PickAndPlace][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:811:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node][m[K’
+  811 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:807:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node][m[K’
+  807 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kbool PickAndPlace::moveToTarget(const Pose&)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:40:91:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   40 |         bool success = (group->plan(plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                           [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:1[m[K:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::addCollisionObject()[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:131:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope
+  131 |         RCLCPP_INFO([01;31m[Klogger[m[K, "Collision objects added to the planning scene.");
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:131:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  131 |         [01;31m[KRCLCPP_INFO[m[K(logger, "Collision objects added to the planning scene.");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:131:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  131 |         [01;31m[KRCLCPP_INFO[m[K(logger, "Collision objects added to the planning scene.");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:131:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  131 |         [01;31m[KRCLCPP_INFO[m[K(logger, "Collision objects added to the planning scene.");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:152:19:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((std::__shared_ptr_access<PickAndPlace, __gnu_cxx::_S_atomic, false, false>*)(& node))->std::__shared_ptr_access<PickAndPlace, __gnu_cxx::_S_atomic, false, false>::operator->()->PickAndPlace::pick()[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+  152 |     if ([01;31m[Knode->pick()[m[K) {
+      |         [01;31m[K~~~~~~~~~~^~[m[K
+      |                   [01;31m[K|[m[K
+      |                   [01;31m[Kvoid[m[K
+gmake[2]: *** [CMakeFiles/pick_place.dir/build.make:76: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pick_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[ 50%] Built target test_ik
+[ 75%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:166:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/ros_move_group_interface/move_group_interface.h: No such file or directory
+  166 | #include [01;31m[K<moveit/ros_move_group_interface/move_group_interface.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pick_place.dir/build.make:76: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pick_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

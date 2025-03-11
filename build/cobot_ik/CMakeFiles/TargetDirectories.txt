@@ -1,6 +1,7 @@
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/uninstall.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/cobot_ik_uninstall.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/test_ik.dir
+/home/fra/master_ws_test/build/cobot_ik/CMakeFiles/pick_place.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/test.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/edit_cache.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j12 -l12
+[0.042s] Invoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j12 -l12
+[0.050s] Invoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment
+[0.056s] -- Install configuration: ""
+[0.056s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/launch
+[0.056s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/launch/world.launch.py
+[0.056s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models
+[0.056s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/support
+[0.056s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/support/model.sdf
+[0.056s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/support/model.config
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/red_cube
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/red_cube/model.sdf
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/red_cube/model.config
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/conveyor
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/conveyor/model.sdf
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/conveyor/model.config
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/object_pick
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/object_pick/model.sdf
+[0.057s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/object_pick/model.config
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace.world
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace_object.world
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace_cube.world
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ament_index/resource_index/package_run_dependencies/ind_environment
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ament_index/resource_index/parent_prefix_path/ind_environment
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/path.sh
+[0.059s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/environment/path.dsv
+[0.059s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.bash
+[0.059s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.sh
+[0.059s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.zsh
+[0.059s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/local_setup.dsv
+[0.059s] -- Installing: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.dsv
+[0.060s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ament_index/resource_index/packages/ind_environment
+[0.060s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/cmake/ind_environmentConfig.cmake
+[0.060s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/cmake/ind_environmentConfig-version.cmake
+[0.060s] -- Up-to-date: /home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.xml
+[0.063s] Invoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment

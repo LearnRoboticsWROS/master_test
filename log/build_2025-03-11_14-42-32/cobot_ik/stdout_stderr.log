@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[ 50%] Built target test_ik
+[ 75%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace(rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:18:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPickAndPlace[m[K’ does not have any field named ‘[01m[Kgripper[m[K’
+   18 |           [01;31m[Kgripper[m[K(node, "gripper"),
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::close_gripper()[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper[m[K’ was not declared in this scope
+   28 |         [01;31m[Kgripper[m[K.setJointValueTarget("finger_right_joint", 0.04);
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::open_gripper()[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper[m[K’ was not declared in this scope
+   34 |         [01;31m[Kgripper[m[K.setJointValueTarget("finger_right_joint", 0.0);
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_place.dir/build.make:76: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pick_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -210,6 +210,43 @@ test_ik/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/build
 .PHONY : test_ik/fast
 
+#=============================================================================
+# Target rules for targets named pick_place
+
+# Build rule for target.
+pick_place: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pick_place
+.PHONY : pick_place
+
+# fast build rule for target.
+pick_place/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/build
+.PHONY : pick_place/fast
+
+src/pick_place.o: src/pick_place.cpp.o
+.PHONY : src/pick_place.o
+
+# target to build an object file
+src/pick_place.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/src/pick_place.cpp.o
+.PHONY : src/pick_place.cpp.o
+
+src/pick_place.i: src/pick_place.cpp.i
+.PHONY : src/pick_place.i
+
+# target to preprocess a source file
+src/pick_place.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/src/pick_place.cpp.i
+.PHONY : src/pick_place.cpp.i
+
+src/pick_place.s: src/pick_place.cpp.s
+.PHONY : src/pick_place.s
+
+# target to generate assembly for a file
+src/pick_place.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/src/pick_place.cpp.s
+.PHONY : src/pick_place.cpp.s
+
 src/test_ik.o: src/test_ik.cpp.o
 .PHONY : src/test_ik.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... cobot_ik_uninstall"
 	@echo "... uninstall"
+	@echo "... pick_place"
 	@echo "... test_ik"
+	@echo "... src/pick_place.o"
+	@echo "... src/pick_place.i"
+	@echo "... src/pick_place.s"
 	@echo "... src/test_ik.o"
 	@echo "... src/test_ik.i"
 	@echo "... src/test_ik.s"

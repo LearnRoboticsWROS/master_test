@@ -1,0 +1,112 @@
+[0.014s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[4.408s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.408s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:67:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::Point_(<brace-enclosed initializer list>)[m[K’
+[4.408s]    67 | rimitive_poses[0].position = geometry_msgs::msg::Point{0.75, 0.0, 0.5[01;31m[K}[m[K;
+[4.408s]       |                                                                      [01;31m[K^[m[K
+[4.408s] 
+[4.408s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.408s]                  from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:4[m[K:
+[4.408s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.408s]    47 |   explicit [01;36m[KPoint_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.408s]       |            [01;36m[K^~~~~~[m[K
+[4.419s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[4.419s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.419s]    36 |   explicit [01;36m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.419s]       |            [01;36m[K^~~~~~[m[K
+[4.420s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.420s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+[4.420s]    32 | struct [01;36m[KPoint_[m[K
+[4.421s]       |        [01;36m[K^~~~~~[m[K
+[4.421s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.421s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[4.421s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.421s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:78:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::Point_(<brace-enclosed initializer list>)[m[K’
+[4.421s]    78 | [1].primitive_poses[0].position = geometry_msgs::msg::Point{0, 1, 0.5[01;31m[K}[m[K;
+[4.422s]       |                                                                      [01;31m[K^[m[K
+[4.422s] 
+[4.422s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+[4.422s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[4.422s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+[4.422s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.422s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.423s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.423s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.423s]                  from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:4[m[K:
+[4.423s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.423s]    47 |   explicit [01;36m[KPoint_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.423s]       |            [01;36m[K^~~~~~[m[K
+[4.424s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[4.424s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.424s]    36 |   explicit [01;36m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.424s]       |            [01;36m[K^~~~~~[m[K
+[4.424s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.424s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+[4.425s]    32 | struct [01;36m[KPoint_[m[K
+[4.425s]       |        [01;36m[K^~~~~~[m[K
+[4.425s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.425s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[4.425s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.425s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:89:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::Point_(<brace-enclosed initializer list>)[m[K’
+[4.426s]    89 | [2].primitive_poses[0].position = geometry_msgs::msg::Point{0, 0, 0.4[01;31m[K}[m[K;
+[4.426s]       |                                                                      [01;31m[K^[m[K
+[4.426s] 
+[4.426s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+[4.426s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[4.426s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+[4.426s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.427s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.427s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.427s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.427s]                  from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:4[m[K:
+[4.427s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.427s]    47 |   explicit [01;36m[KPoint_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.427s]       |            [01;36m[K^~~~~~[m[K
+[4.427s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[4.427s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.427s]    36 |   explicit [01;36m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.427s]       |            [01;36m[K^~~~~~[m[K
+[4.427s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.427s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+[4.427s]    32 | struct [01;36m[KPoint_[m[K
+[4.428s]       |        [01;36m[K^~~~~~[m[K
+[4.428s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.428s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[4.428s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.428s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:100:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::Point_(<brace-enclosed initializer list>)[m[K’
+[4.428s]   100 | primitive_poses[0].position = geometry_msgs::msg::Point{0.6, 0.0, 1.1[01;31m[K}[m[K;
+[4.428s]       |                                                                      [01;31m[K^[m[K
+[4.428s] 
+[4.428s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.428s]                  from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/test_ik.cpp:4[m[K:
+[4.428s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.428s]    47 |   explicit [01;36m[KPoint_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.428s]       |            [01;36m[K^~~~~~[m[K
+[4.429s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:47:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[4.429s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[4.429s]    36 |   explicit [01;36m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[4.429s]       |            [01;36m[K^~~~~~[m[K
+[4.429s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:36:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.429s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+[4.429s]    32 | struct [01;36m[KPoint_[m[K
+[4.429s]       |        [01;36m[K^~~~~~[m[K
+[4.429s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.429s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::Point_(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[4.429s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[6.738s] gmake[2]: *** [CMakeFiles/test_ik.dir/build.make:76: CMakeFiles/test_ik.dir/src/test_ik.cpp.o] Error 1
+[6.738s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_ik.dir/all] Error 2
+[6.739s] gmake: *** [Makefile:146: all] Error 2
+[6.741s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12

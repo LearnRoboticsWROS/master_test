@@ -25,8 +25,12 @@ endif()
 add_executable(test_ik src/test_ik.cpp)
 ament_target_dependencies(test_ik rclcpp moveit_ros_planning_interface)
 
+add_executable(pick_place src/pick_place.cpp)
+ament_target_dependencies(pick_place rclcpp moveit_ros_planning_interface)
+
 install(TARGETS 
   test_ik
+  pick_place
   DESTINATION lib/${PROJECT_NAME}/
 )
 

@@ -1361,8 +1361,161 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /opt/ros/humble/include/moveit_move_group_interface_export.h
+  /opt/ros/humble/include/moveit_move_group_interface_export.h \
+  /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/object_color.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/attached_collision_object.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__builder.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__type_support.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__builder.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__traits.hpp \
+  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__type_support.hpp \
+  /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point32.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp \
+  /usr/include/kdl/frames.hpp \
+  /usr/include/kdl/utilities/kdl-config.h \
+  /usr/include/kdl/utilities/utility.h \
+  /usr/include/kdl/utilities/kdl-config.h \
+  /usr/include/kdl/frames.inl \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp
 
+
+/usr/include/kdl/frames.inl:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__type_support.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__traits.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__builder.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_trajectory__struct.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__type_support.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__builder.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/attached_collision_object.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp:
+
+/opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h:
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1436,9 +1589,13 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp:
+
 /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h:
 
 /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h:
 
@@ -1522,6 +1679,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp:
@@ -1545,6 +1704,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/grasp__builder.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
 
@@ -1616,9 +1777,13 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp:
 
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp:
 
@@ -1653,6 +1818,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point32.hpp:
 
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:
 
@@ -1697,6 +1864,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:
 
@@ -1767,6 +1936,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
 
 /usr/include/signal.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
 
@@ -1876,9 +2047,13 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
 
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
@@ -1918,6 +2093,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
@@ -1943,6 +2120,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/rcl/rcl/node.h:
 
 /opt/ros/humble/include/rmw/rmw/event_callback_type.h:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/object_color.hpp:
 
 /opt/ros/humble/include/rcl/rcl/context.h:
 
@@ -1971,6 +2150,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
+
+/usr/include/kdl/utilities/kdl-config.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
 
@@ -2005,6 +2186,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/list.tcc:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
@@ -2045,6 +2228,10 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
+
+/usr/include/kdl/frames.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp:
 
@@ -2139,6 +2326,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
@@ -2334,6 +2523,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_trajectory.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
@@ -2519,6 +2710,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/unistd.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
@@ -2708,6 +2901,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp:
+
 /usr/include/boost/mpl/aux_/config/integral.hpp:
 
 /usr/include/c++/11/bits/align.h:
@@ -2826,6 +3021,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
@@ -2879,6 +3076,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /usr/include/c++/11/limits:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
+
+/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp:
 
@@ -2961,6 +3160,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/11/iomanip:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp:
 
 /usr/include/c++/11/cctype:
 
@@ -3286,6 +3487,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /usr/include/boost/mpl/int.hpp:
 
+/usr/include/kdl/utilities/utility.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
 /opt/ros/humble/include/tf2/tf2/time.hpp:
@@ -3324,6 +3527,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
 /usr/include/boost/random/uniform_01.hpp:
@@ -3347,6 +3552,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/limits.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp:
 
 /usr/include/c++/11/bits/stl_numeric.h:
 
@@ -3442,6 +3649,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /opt/ros/humble/include/moveit/robot_model/joint_model.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp:
@@ -3516,6 +3725,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 
 /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp:
 
 /usr/include/boost/type_traits/is_floating_point.hpp:
@@ -3589,6 +3800,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
 
 /usr/include/boost/mpl/aux_/na_spec.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp:
 
@@ -4045,6 +4258,8 @@ CMakeFiles/test_ik.dir/src/test_ik.cpp.o: /home/fra/master_ws_test/src/cobot_ik/
 /opt/ros/humble/include/moveit/robot_state/attached_body.h:
 
 /opt/ros/humble/include/moveit/transforms/transforms.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
 

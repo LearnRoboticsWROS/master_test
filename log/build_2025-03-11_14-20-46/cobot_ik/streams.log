@@ -1,0 +1,14 @@
+[0.016s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[0.098s] [ 75%] [32m[1mLinking CXX executable pick_place[0m
+[7.552s] [100%] [32m[1mLinking CXX executable test_ik[0m
+[7.836s] [100%] Built target test_ik
+[9.834s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[9.834s] (.text+0x1b): undefined reference to `main'
+[9.836s] collect2: error: ld returned 1 exit status
+[9.837s] gmake[2]: *** [CMakeFiles/pick_place.dir/build.make:355: pick_place] Error 1
+[9.838s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pick_place.dir/all] Error 2
+[9.838s] gmake: *** [Makefile:146: all] Error 2
+[9.840s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12

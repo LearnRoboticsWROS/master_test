@@ -1,0 +1,109 @@
+[0.014s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.065s] [ 25%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[0.065s] [ 75%] Built target test_ik
+[4.362s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace()[m[K’:
+[4.362s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:181:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [4])[m[K’
+[4.362s]   181 |         : [01;31m[Kgroup("arm")[m[K, gripper("gripper")
+[4.362s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[4.362s] In file included from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:166[m[K:
+[4.362s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[4.362s]   159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[4.362s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.362s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[4.363s]   159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[4.363s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.363s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[4.363s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[4.363s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.363s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.363s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[4.363s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[4.363s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.363s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.363s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:181:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [8])[m[K’
+[4.364s]   181 |         : group("arm"), [01;31m[Kgripper("gripper")[m[K
+[4.364s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.364s] In file included from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:166[m[K:
+[4.364s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[4.364s]   159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[4.364s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.364s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[4.364s]   159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[4.364s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.364s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[4.365s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[4.365s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.365s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.365s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[4.365s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[4.365s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.365s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[4.365s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:183:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kset_planning_time[m[K’; did you mean ‘[01m[KsetPlanningTime[m[K’?
+[4.365s]   183 |         group.[01;31m[Kset_planning_time[m[K(45.0);
+[4.365s]       |               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.366s]       |               [32m[KsetPlanningTime[m[K
+[4.366s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::close_gripper()[m[K’:
+[4.366s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:188:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kset_joint_value_target[m[K’; did you mean ‘[01m[KsetJointValueTarget[m[K’?
+[4.366s]   188 |         gripper.[01;31m[Kset_joint_value_target[m[K("finger_right_joint", 0.04);
+[4.366s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.366s]       |                 [32m[KsetJointValueTarget[m[K
+[4.366s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::open_gripper()[m[K’:
+[4.366s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:194:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kset_joint_value_target[m[K’; did you mean ‘[01m[KsetJointValueTarget[m[K’?
+[4.366s]   194 |         gripper.[01;31m[Kset_joint_value_target[m[K("finger_right_joint", 0.0);
+[4.366s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.367s]       |                 [32m[KsetJointValueTarget[m[K
+[4.367s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::pick()[m[K’:
+[4.367s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:201:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kset_pose_reference_frame[m[K’; did you mean ‘[01m[KsetPoseReferenceFrame[m[K’?
+[4.367s]   201 |         group.[01;31m[Kset_pose_reference_frame[m[K("base_link");
+[4.367s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.367s]       |               [32m[KsetPoseReferenceFrame[m[K
+[4.367s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:209:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kset_pose_target[m[K’; did you mean ‘[01m[KsetPoseTarget[m[K’?
+[4.367s]   209 |         group.[01;31m[Kset_pose_target[m[K(pick_position, "picking_point");
+[4.367s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.367s]       |               [32m[KsetPoseTarget[m[K
+[4.368s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::place()[m[K’:
+[4.368s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:217:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kset_pose_reference_frame[m[K’; did you mean ‘[01m[KsetPoseReferenceFrame[m[K’?
+[4.368s]   217 |         group.[01;31m[Kset_pose_reference_frame[m[K("base_link");
+[4.368s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.368s]       |               [32m[KsetPoseReferenceFrame[m[K
+[4.368s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:225:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kset_pose_target[m[K’; did you mean ‘[01m[KsetPoseTarget[m[K’?
+[4.368s]   225 |         group.[01;31m[Kset_pose_target[m[K(place_position, "picking_point");
+[4.368s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.368s]       |               [32m[KsetPoseTarget[m[K
+[4.368s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::add_collision_object()[m[K’:
+[4.368s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:298:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[Kapply_collision_objects[m[K’; did you mean ‘[01m[KapplyCollisionObjects[m[K’?
+[4.369s]   298 |         planning_scene_interface.[01;31m[Kapply_collision_objects[m[K(collision_objects);
+[4.369s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.369s]       |                                  [32m[KapplyCollisionObjects[m[K
+[4.369s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::attach_collision_object()[m[K’:
+[4.369s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:311:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[Kapply_attached_collision_object[m[K’; did you mean ‘[01m[KapplyAttachedCollisionObject[m[K’?
+[4.369s]   311 |         planning_scene_interface.[01;31m[Kapply_attached_collision_object[m[K(attached_object);
+[4.369s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.369s]       |                                  [32m[KapplyAttachedCollisionObject[m[K
+[4.369s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::detach_collision_object()[m[K’:
+[4.369s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:319:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[Kapply_attached_collision_object[m[K’; did you mean ‘[01m[KapplyAttachedCollisionObject[m[K’?
+[4.370s]   319 |         planning_scene_interface.[01;31m[Kapply_attached_collision_object[m[K(attached_object);
+[4.370s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.370s]       |                                  [32m[KapplyAttachedCollisionObject[m[K
+[4.373s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.373s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:333:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<PickAndPlace>)[m[K’
+[4.373s]   333 |     [01;31m[Krclcpp::spin(std::make_shared<PickAndPlace>())[m[K;
+[4.373s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.373s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.373s]                  from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place.cpp:164[m[K:
+[4.373s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[4.373s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[4.373s]       | [01;36m[K^~~~[m[K
+[4.374s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KPickAndPlace[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[4.374s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[4.374s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.374s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[4.374s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[4.374s]       | [01;36m[K^~~~[m[K
+[4.374s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KPickAndPlace[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[4.374s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[4.374s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.683s] gmake[2]: *** [CMakeFiles/pick_place.dir/build.make:76: CMakeFiles/pick_place.dir/src/pick_place.cpp.o] Error 1
+[6.683s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/pick_place.dir/all] Error 2
+[6.683s] gmake: *** [Makefile:146: all] Error 2
+[6.685s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
