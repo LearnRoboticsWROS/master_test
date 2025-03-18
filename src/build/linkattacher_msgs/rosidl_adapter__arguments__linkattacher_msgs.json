@@ -1,0 +1,7 @@
+{
+  "package_name": "linkattacher_msgs",
+  "non_idl_tuples": [
+    "/home/fra/master_ws_test/src/IFRA_LinkAttacher/linkattacher_msgs:srv/AttachLink.srv",
+    "/home/fra/master_ws_test/src/IFRA_LinkAttacher/linkattacher_msgs:srv/DetachLink.srv"
+  ]
+}

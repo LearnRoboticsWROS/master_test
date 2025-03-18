@@ -1,0 +1,18 @@
+[0.015s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[0.067s] [ 37%] Built target test_ik
+[0.068s] [ 50%] Built target pick_place
+[0.068s] [ 75%] Built target pick_place_fake_gripping
+[0.069s] [ 87%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m
+[4.510s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::attachObject()[m[K’:
+[4.510s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:116:48:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[4.511s]   116 |         if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, future) == rclcpp::FutureReturnCode::SUCCESS)
+[4.511s]       |                                                [01;31m[K^~~~[m[K
+[4.516s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::detachObject()[m[K’:
+[4.517s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:132:48:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[4.517s]   132 |         if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, future) == rclcpp::FutureReturnCode::SUCCESS)
+[4.517s]       |                                                [01;31m[K^~~~[m[K
+[6.982s] gmake[2]: *** [CMakeFiles/pick_place_link_attacher.dir/build.make:76: CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o] Error 1
+[6.982s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/pick_place_link_attacher.dir/all] Error 2
+[6.982s] gmake: *** [Makefile:146: all] Error 2
+[6.984s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12

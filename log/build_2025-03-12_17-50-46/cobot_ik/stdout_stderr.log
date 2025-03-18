@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[ 66%] Built target pick_place
+[ 66%] Built target test_ik
+[ 83%] [32mBuilding CXX object CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o[0m
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace(rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:37:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_client[m[K’ was not declared in this scope
+   37 |         set_link_state_client = [01;31m[Kcreate_client[m[K<gazebo_msgs::srv::SetLinkState>("/gazebo/set_link_state");
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:37:33:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:32:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::create_client[m[K’
+   32 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:58[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::create_client[m[K’
+  105 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:37:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   37 |         set_link_state_client = create_client<gazebo_msgs::srv::SetLinkState[01;31m[K>[m[K("/gazebo/set_link_state");
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:38:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   38 |         get_link_state_client = create_client<gazebo_msgs::srv::GetLinkState[01;31m[K>[m[K("/gazebo/get_link_state");
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:40:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_wall_timer[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::create_wall_timer[m[K’?
+   40 |         timer_ = [01;31m[Kcreate_wall_timer[m[K(std::chrono::milliseconds(10),
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Krclcpp::create_wall_timer[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:43[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:90:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::create_wall_timer[m[K’ declared here
+   90 | [01;36m[Kcreate_wall_timer[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_place_fake_gripping.dir/build.make:76: CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pick_place_fake_gripping.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,100 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fra/master_ws_test/build/cobot_ik
+[35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o[0m
+[ 83%] Built target test_ik
+[ 83%] Built target pick_place
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace(rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:31:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kcreate_client[m[K’
+   31 |         set_link_state_client = this->[01;31m[Kcreate_client[m[K<gazebo_msgs::srv::SetLinkState>("/gazebo/set_link_state");
+      |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:31:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   31 |         set_link_state_client = this->create_client<gazebo_msgs::srv::SetLinkState[01;31m[K>[m[K("/gazebo/set_link_state");
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:32:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kcreate_client[m[K’
+   32 |         get_link_state_client = this->[01;31m[Kcreate_client[m[K<gazebo_msgs::srv::GetLinkState>("/gazebo/get_link_state");
+      |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:32:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   32 |         get_link_state_client = this->create_client<gazebo_msgs::srv::GetLinkState[01;31m[K>[m[K("/gazebo/get_link_state");
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:34:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+   34 |         timer_ = this->[01;31m[Kcreate_wall_timer[m[K(std::chrono::milliseconds(10),
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:2[m[K:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::attachObject(const string&, const string&)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:57:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kget_logger[m[K’; did you mean ‘[01m[Klogger[m[K’?
+   57 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Failed to get relative pose of object");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:57:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kget_logger[m[K’; did you mean ‘[01m[Klogger[m[K’?
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:57:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to get relative pose of object");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:57:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to get relative pose of object");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:57:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to get relative pose of object");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:2[m[K:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:57:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kget_logger[m[K’; did you mean ‘[01m[Klogger[m[K’?
+   57 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Failed to get relative pose of object");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:57:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kget_logger[m[K’; did you mean ‘[01m[Klogger[m[K’?
+   57 |             RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Failed to get relative pose of object");
+      |                                [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_place_fake_gripping.dir/build.make:76: CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pick_place_fake_gripping.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

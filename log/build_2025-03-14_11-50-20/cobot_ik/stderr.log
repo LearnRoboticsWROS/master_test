@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findgazebo_ros_link_attacher.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "gazebo_ros_link_attacher", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "gazebo_ros_link_attacher" with any of the following names:
+
+    gazebo_ros_link_attacherConfig.cmake
+    gazebo_ros_link_attacher-config.cmake
+
+  Add the installation prefix of "gazebo_ros_link_attacher" to
+  CMAKE_PREFIX_PATH or set "gazebo_ros_link_attacher_DIR" to a directory
+  containing one of the above files.  If "gazebo_ros_link_attacher" provides
+  a separate development package or SDK, be sure it has been installed.
+
+[0m
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

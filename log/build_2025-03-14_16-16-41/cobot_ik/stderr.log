@@ -1,0 +1,7 @@
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kros2_linkattacher/gazebo_link_attacher.hpp: No such file or directory
+   13 | #include [01;31m[K"ros2_linkattacher/gazebo_link_attacher.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pick_place_link_attacher.dir/build.make:76: CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/pick_place_link_attacher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

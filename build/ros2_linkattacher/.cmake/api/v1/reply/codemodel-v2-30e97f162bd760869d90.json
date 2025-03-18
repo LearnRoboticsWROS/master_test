@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f9c200980e3c2b8573f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_linkattacher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_link_attacher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_link_attacher-005feb9bb55d6f4f1976.json",
+					"name" : "gazebo_link_attacher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_link_attacher_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_link_attacher_server-24b443ba322b7d912995.json",
+					"name" : "gazebo_link_attacher_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_linkattacher_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_linkattacher_uninstall-2786b2b051c5913fe441.json",
+					"name" : "ros2_linkattacher_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9485c47b1551e2301880.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fra/master_ws_test/build/ros2_linkattacher",
+		"source" : "/home/fra/master_ws_test/src/IFRA_LinkAttacher/ros2_LinkAttacher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

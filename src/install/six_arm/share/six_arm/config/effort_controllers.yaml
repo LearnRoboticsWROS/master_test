@@ -1,0 +1,46 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    arm_position_controller:
+      type: position_controllers/JointGroupPositionController
+    
+    gripper_action_controller:
+      type: position_controllers/GripperActionController
+
+
+arm_position_controller:
+  ros__parameters:
+    joints:
+      - base_link__link1
+      - link1__link2
+      - link2__link3
+      - link3__link4
+      - link4__link5
+      - link5__link6
+    gains:
+      base_link__link1: {p: 100.0, i: 1.0, d: 0.1}
+      link1__link2: {p: 100.0, i: 1.0, d: 0.1}
+      link2__link3: {p: 100.0, i: 1.0, d: 0.1}
+      link3__link4: {p: 100.0, i: 1.0, d: 0.1}
+      link4__link5: {p: 100.0, i: 1.0, d: 0.1}
+    interface_name: position
+    command_interfaces:
+     - position
+    state_interfaces:
+     - position
+     - velocity
+
+gripper_action_controller:
+  ros__parameters:
+    action_monitor_rate: 20.0
+    allow_stalling: true
+    goal_tolerance: 0.01
+    joint: 'finger_right_joint'
+    max_effort: 100.0
+    stall_timeout: 3.0
+    stall_velocity_threshold: 0.001

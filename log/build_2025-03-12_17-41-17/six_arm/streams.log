@@ -1,0 +1,54 @@
+[0.018s] Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12
+[0.062s] [100%] Built target joint_publisher
+[0.086s] Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12
+[0.087s] Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm
+[0.093s] -- Install configuration: ""
+[0.093s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/lib/six_arm/joint_publisher
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_traj_controllers.launch.py
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_eff_controllers.launch.py
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_camera_moveit.launch.py
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_controllers.launch.py
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_namespace.launch.py
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_camera.launch.py
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_moveit.launch.py
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/red_cube.xacro
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot_camera.urdf.xacro
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot_trajectory_control.urdf.xacro
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/check.urdf
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot.urdf.xacro
+[0.094s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/custom_robot_gazebo.xacro
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/custom_gripper.xacro
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot_effort.urdf.xacro
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/link_joint.xacro
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/camera.xacro
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/effort_controllers.yaml
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/trajectory_controllers.yaml
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/controllers.yaml
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/config/config.rviz
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/src
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/src/joint_publisher.cpp
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera/kinetic.png
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera/kinetic.dae
+[0.095s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/meshes/sensors/camera/kinetic.stl
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/package_run_dependencies/six_arm
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/parent_prefix_path/six_arm
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/path.sh
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/environment/path.dsv
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.bash
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.sh
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.zsh
+[0.096s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/local_setup.dsv
+[0.096s] -- Installing: /home/fra/master_ws_test/install/six_arm/share/six_arm/package.dsv
+[0.097s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/ament_index/resource_index/packages/six_arm
+[0.097s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/cmake/six_armConfig.cmake
+[0.097s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/cmake/six_armConfig-version.cmake
+[0.097s] -- Up-to-date: /home/fra/master_ws_test/install/six_arm/share/six_arm/package.xml
+[0.097s] Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm

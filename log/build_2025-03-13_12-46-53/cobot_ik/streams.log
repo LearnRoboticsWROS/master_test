@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[0.065s] [ 66%] Built target pick_place
+[0.065s] [ 66%] Built target test_ik
+[0.070s] [ 83%] [32mBuilding CXX object CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o[0m
+[4.565s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:[m[K In member function ‘[01m[Kvoid PickAndPlace::pick()[m[K’:
+[4.565s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:95:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.565s]    95 |         [01;35m[K-1.545[m[K, 0.225, 0.027
+[4.565s]       |         [01;35m[K^~~~~~[m[K
+[4.565s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:95:24:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.565s]    95 |         -1.545, 0.225, [01;35m[K0.027[m[K
+[4.565s]       |                        [01;35m[K^~~~~[m[K
+[4.565s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:96:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpick_pose[m[K’
+[4.565s]    96 |         [01;31m[Kpick_pose[m[K.orientation = tf2::toMsg(orientation);
+[4.565s]       |         [01;31m[K^~~~~~~~~[m[K
+[4.566s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:96:56:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.566s]    96 |         pick_pose.orientation = tf2::toMsg(orientation)[01;35m[K;[m[K
+[4.566s]       |                                                        [01;35m[K^[m[K
+[7.245s] gmake[2]: *** [CMakeFiles/pick_place_fake_gripping.dir/build.make:76: CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o] Error 1
+[7.245s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pick_place_fake_gripping.dir/all] Error 2
+[7.246s] gmake: *** [Makefile:146: all] Error 2
+[7.248s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12

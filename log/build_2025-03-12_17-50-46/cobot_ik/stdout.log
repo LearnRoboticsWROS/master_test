@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[ 66%] Built target pick_place
+[ 66%] Built target test_ik
+[ 83%] [32mBuilding CXX object CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o[0m

@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[ 12%] [32m[1mLinking CXX executable pick_place_link_attacher[0m
+[ 87%] Built target test_ik
+[ 87%] Built target pick_place
+[ 87%] Built target pick_place_fake_gripping

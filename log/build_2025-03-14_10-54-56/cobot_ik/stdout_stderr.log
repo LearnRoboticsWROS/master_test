@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[ 25%] Built target pick_place
+[ 75%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m
+[ 87%] Built target test_ik
+[ 87%] Built target pick_place_fake_gripping
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace(rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:241:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KPickAndPlace::logger[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  241 |     rclcpp::Logger [01;35m[Klogger[m[K;
+      |                    [01;35m[K^~~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:235:29:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krclcpp::Node::SharedPtr PickAndPlace::node_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  235 |     rclcpp::Node::SharedPtr [01;35m[Knode_[m[K;
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:16:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   16 |     [01;35m[KPickAndPlace[m[K(rclcpp::Node::SharedPtr node)
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable pick_place_link_attacher[0m
+[100%] Built target pick_place_link_attacher
+-- Install configuration: ""
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml

@@ -1,0 +1,584 @@
+[0.491s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.491s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79a03c03a140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79a03c039ab0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79a03c039ab0>>, mixin_verb=('build',))[0m
+[0.628s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.629s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.629s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.629s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.629s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.629s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.629s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/fra/master_ws_test'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.630s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.706s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.707s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.708s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.709s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.710s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.711s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.712s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.713s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extension 'ignore'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extension 'ignore_ament_install'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extensions ['colcon_pkg']
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extension 'colcon_pkg'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extensions ['colcon_meta']
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extension 'colcon_meta'
+[0.714s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extensions ['ros']
+[0.715s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arm_moveit_config) by extension 'ros'
+[0.723s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arm_moveit_config' with type 'ros.ament_cmake' and name 'arm_moveit_config'[0m
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extension 'ignore'
+[0.724s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extension 'ignore_ament_install'
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extensions ['colcon_pkg']
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extension 'colcon_pkg'
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extensions ['colcon_meta']
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extension 'colcon_meta'
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extensions ['ros']
+[0.725s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_camera_moveit_config) by extension 'ros'
+[0.728s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cobot_camera_moveit_config' with type 'ros.ament_cmake' and name 'cobot_camera_moveit_config'[0m
+[0.729s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extension 'ignore'
+[0.729s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extension 'ignore_ament_install'
+[0.729s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extensions ['colcon_pkg']
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extension 'colcon_pkg'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extensions ['colcon_meta']
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extension 'colcon_meta'
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extensions ['ros']
+[0.730s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cobot_ik) by extension 'ros'
+[0.732s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cobot_ik' with type 'ros.ament_cmake' and name 'cobot_ik'[0m
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'ignore'
+[0.733s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extensions ['ros']
+[0.734s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'ros'
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extensions ['cmake', 'python']
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'cmake'
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'python'
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extensions ['python_setup_py']
+[0.735s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs) by extension 'python_setup_py'
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore'
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore_ament_install'
+[0.736s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_pkg']
+[0.737s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_pkg'
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_meta']
+[0.738s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_meta'
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ros']
+[0.739s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ros'
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/gazebo_ros_pkgs/gazebo_dev' with type 'ros.catkin' and name 'gazebo_dev'[0m
+[0.741s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore'
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore_ament_install'
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_pkg']
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_pkg'
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_meta']
+[0.742s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_meta'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ros']
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ros'
+[0.745s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/gazebo_ros_pkgs/gazebo_msgs' with type 'ros.catkin' and name 'gazebo_msgs'[0m
+[0.746s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.746s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore'
+[0.746s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore_ament_install'
+[0.746s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_pkg']
+[0.746s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_pkg'
+[0.748s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_meta']
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_meta'
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ros']
+[0.749s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ros'
+[0.759s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/gazebo_ros_pkgs/gazebo_plugins' with type 'ros.catkin' and name 'gazebo_plugins'[0m
+[0.759s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore'
+[0.760s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore_ament_install'
+[0.760s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_pkg']
+[0.760s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_pkg'
+[0.762s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_meta']
+[0.762s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_meta'
+[0.763s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ros']
+[0.763s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ros'
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/gazebo_ros_pkgs/gazebo_ros' with type 'ros.catkin' and name 'gazebo_ros'[0m
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore_ament_install'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_pkg']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_pkg'
+[0.771s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_meta']
+[0.771s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_meta'
+[0.771s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ros']
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ros'
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/gazebo_ros_pkgs/gazebo_ros_control' with type 'ros.catkin' and name 'gazebo_ros_control'[0m
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ros']
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ros'
+[0.781s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/gazebo_ros_pkgs/gazebo_ros_pkgs' with type 'ros.catkin' and name 'gazebo_ros_pkgs'[0m
+[0.781s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extension 'ignore'
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extension 'ignore_ament_install'
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extensions ['colcon_pkg']
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extension 'colcon_pkg'
+[0.783s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extensions ['colcon_meta']
+[0.783s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extension 'colcon_meta'
+[0.783s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extensions ['ros']
+[0.783s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ind_environment) by extension 'ros'
+[0.785s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ind_environment' with type 'ros.ament_cmake' and name 'ind_environment'[0m
+[0.785s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extension 'ignore'
+[0.786s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extension 'ignore_ament_install'
+[0.786s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extensions ['colcon_pkg']
+[0.786s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extension 'colcon_pkg'
+[0.786s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extensions ['colcon_meta']
+[0.786s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extension 'colcon_meta'
+[0.787s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extensions ['ros']
+[0.787s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm) by extension 'ros'
+[0.789s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/six_arm' with type 'ros.ament_cmake' and name 'six_arm'[0m
+[0.789s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extension 'ignore'
+[0.790s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extension 'ignore_ament_install'
+[0.790s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extensions ['colcon_pkg']
+[0.790s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extension 'colcon_pkg'
+[0.790s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extensions ['colcon_meta']
+[0.790s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extension 'colcon_meta'
+[0.791s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extensions ['ros']
+[0.791s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/six_arm_moveit_config) by extension 'ros'
+[0.794s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/six_arm_moveit_config' with type 'ros.ament_cmake' and name 'six_arm_moveit_config'[0m
+[0.794s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.795s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.795s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.795s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.795s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.847s] [34mcolcon.colcon_metadata.metadata.colcon_pkg[0m [1;30mINFO[0m Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.849s] [34mcolcon.colcon_metadata.metadata.colcon_pkg[0m [1;30mINFO[0m Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros_control' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.851s] [34mcolcon.colcon_metadata.metadata.colcon_pkg[0m [1;30mINFO[0m Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.852s] [34mcolcon.colcon_metadata.metadata.colcon_pkg[0m [1;30mINFO[0m Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.865s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.865s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.873s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 12 installed packages in /home/fra/master_ws_test/install[0m
+[0.875s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 6 installed packages in /home/fra/ros2_master_ws/install[0m
+[0.881s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 386 installed packages in /opt/ros/humble[0m
+[0.887s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.078s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mSome selected packages are already built in one or more underlay workspaces:
+	'gazebo_ros' is in: /opt/ros/humble
+	'gazebo_dev' is in: /opt/ros/humble
+	'six_arm' is in: /home/fra/master_ws_test/install/six_arm
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding gazebo_dev gazebo_ros six_arm
+
+This may be promoted to an error in a future release of colcon-override-check.[0m
+[1.081s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'cmake_args' from command line to 'None'
+[1.081s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'cmake_target' from command line to 'None'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'cmake_clean_cache' from command line to 'False'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'cmake_clean_first' from command line to 'False'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'cmake_force_configure' from command line to 'False'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'ament_cmake_args' from command line to 'None'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'catkin_cmake_args' from command line to 'None'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_dev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.082s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'gazebo_dev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/gazebo_dev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/gazebo_dev', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_dev', 'symlink_install': False, 'test_result_base': None}[0m
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.084s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.085s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'gazebo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/gazebo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/gazebo_msgs', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[1.086s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'cmake_args' from command line to 'None'
+[1.086s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'cmake_target' from command line to 'None'
+[1.086s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.086s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'cmake_clean_cache' from command line to 'False'
+[1.086s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'cmake_clean_first' from command line to 'False'
+[1.086s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'cmake_force_configure' from command line to 'False'
+[1.086s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'ament_cmake_args' from command line to 'None'
+[1.087s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'catkin_cmake_args' from command line to 'None'
+[1.087s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ind_environment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.087s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ind_environment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/ind_environment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/ind_environment', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/ind_environment', 'symlink_install': False, 'test_result_base': None}[0m
+[1.088s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'cmake_args' from command line to 'None'
+[1.088s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'cmake_target' from command line to 'None'
+[1.088s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.088s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.088s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'cmake_clean_first' from command line to 'False'
+[1.089s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'cmake_force_configure' from command line to 'False'
+[1.089s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'ament_cmake_args' from command line to 'None'
+[1.089s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.089s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.089s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'six_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/six_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/six_arm', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/six_arm', 'symlink_install': False, 'test_result_base': None}[0m
+[1.090s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[1.090s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[1.090s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.091s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.091s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.091s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.091s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.091s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.091s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.091s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/arm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/arm_moveit_config', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/arm_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[1.092s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'cmake_args' from command line to 'None'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'cmake_target' from command line to 'None'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_camera_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.093s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cobot_camera_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/cobot_camera_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/cobot_camera_moveit_config', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/cobot_camera_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'cmake_args' from command line to 'None'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'cmake_target' from command line to 'None'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'cmake_clean_first' from command line to 'False'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'cmake_force_configure' from command line to 'False'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'ament_cmake_args' from command line to 'None'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[1.095s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cobot_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.096s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cobot_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/cobot_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/cobot_ik', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/cobot_ik', 'symlink_install': False, 'test_result_base': None}[0m
+[1.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'cmake_args' from command line to 'None'
+[1.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'cmake_target' from command line to 'None'
+[1.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.098s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.098s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.098s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'gazebo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/gazebo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/gazebo_ros', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_ros', 'symlink_install': False, 'test_result_base': None}[0m
+[1.099s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[1.099s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[1.099s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.099s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.100s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'six_arm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.100s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'six_arm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/six_arm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/six_arm_moveit_config', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/six_arm_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[1.101s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.101s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.102s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/gazebo_plugins', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_plugins', 'symlink_install': False, 'test_result_base': None}[0m
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'cmake_args' from command line to 'None'
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'cmake_target' from command line to 'None'
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.104s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.105s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.105s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'gazebo_ros_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/gazebo_ros_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/gazebo_ros_control', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_ros_control', 'symlink_install': False, 'test_result_base': None}[0m
+[1.106s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'cmake_args' from command line to 'None'
+[1.106s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'cmake_target' from command line to 'None'
+[1.106s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.107s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.107s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.107s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.107s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.107s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.107s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'gazebo_ros_pkgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.107s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'gazebo_ros_pkgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/gazebo_ros_pkgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/gazebo_ros_pkgs', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_ros_pkgs', 'symlink_install': False, 'test_result_base': None}[0m
+[1.108s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.111s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.112s] [34mcolcon.colcon_ros.task.catkin.build[0m [1;30mINFO[0m Building ROS package in '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_msgs' with build type 'catkin'
+[1.113s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_msgs'
+[1.120s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.121s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.137s] [34mcolcon.colcon_ros.task.catkin.build[0m [1;30mINFO[0m Building ROS package in '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_dev' with build type 'catkin'
+[1.138s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_dev'
+[1.139s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.139s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.154s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/fra/master_ws_test/src/six_arm' with build type 'ament_cmake'
+[1.155s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/fra/master_ws_test/src/six_arm'
+[1.155s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.156s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.171s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/fra/master_ws_test/src/ind_environment' with build type 'ament_cmake'
+[1.171s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/fra/master_ws_test/src/ind_environment'
+[1.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.172s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.204s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/gazebo_msgs': /usr/bin/cmake /home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/gazebo_msgs[0m
+[1.212s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/gazebo_dev': /usr/bin/cmake /home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_dev -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/gazebo_dev[0m
+[1.225s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12[0m
+[1.241s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j12 -l12[0m
+[1.350s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j12 -l12[0m
+[1.382s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment[0m
+[1.414s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ind_environment)
+[1.431s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment[0m
+[1.435s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment' for CMake module files
+[1.436s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment' for CMake config files
+[1.437s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ind_environment', 'cmake_prefix_path')
+[1.438s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.ps1'
+[1.440s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.dsv'
+[1.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.sh'
+[1.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[1.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/lib/pkgconfig/ind_environment.pc'
+[1.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/lib/python3.10/site-packages'
+[1.447s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[1.448s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.ps1'
+[1.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.dsv'
+[1.454s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.sh'
+[1.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.bash'
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.zsh'
+[1.461s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/ind_environment/share/colcon-core/packages/ind_environment)
+[1.463s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ind_environment)
+[1.464s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment' for CMake module files
+[1.465s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment' for CMake config files
+[1.466s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ind_environment', 'cmake_prefix_path')
+[1.467s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.ps1'
+[1.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.dsv'
+[1.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.sh'
+[1.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[1.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/lib/pkgconfig/ind_environment.pc'
+[1.473s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/lib/python3.10/site-packages'
+[1.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[1.475s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.ps1'
+[1.476s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.dsv'
+[1.478s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.sh'
+[1.480s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.bash'
+[1.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.zsh'
+[1.483s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/ind_environment/share/colcon-core/packages/ind_environment)
+[1.488s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j12 -l12[0m
+[1.492s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm[0m
+[1.533s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(six_arm)
+[1.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm' for CMake module files
+[1.540s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm' for CMake config files
+[1.542s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm[0m
+[1.544s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('six_arm', 'cmake_prefix_path')
+[1.544s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.ps1'
+[1.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.dsv'
+[1.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.sh'
+[1.549s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/lib'
+[1.550s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/bin'
+[1.550s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/lib/pkgconfig/six_arm.pc'
+[1.551s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/lib/python3.10/site-packages'
+[1.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/bin'
+[1.553s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.ps1'
+[1.556s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.dsv'
+[1.557s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.sh'
+[1.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.bash'
+[1.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.zsh'
+[1.561s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm/share/colcon-core/packages/six_arm)
+[1.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(six_arm)
+[1.564s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm' for CMake module files
+[1.565s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm' for CMake config files
+[1.566s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('six_arm', 'cmake_prefix_path')
+[1.567s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.ps1'
+[1.569s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.dsv'
+[1.570s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.sh'
+[1.572s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/lib'
+[1.572s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/bin'
+[1.572s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/lib/pkgconfig/six_arm.pc'
+[1.573s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/lib/python3.10/site-packages'
+[1.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm/bin'
+[1.575s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.ps1'
+[1.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.dsv'
+[1.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.sh'
+[1.580s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.bash'
+[1.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.zsh'
+[1.582s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm/share/colcon-core/packages/six_arm)
+[1.584s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/fra/master_ws_test/src/arm_moveit_config' with build type 'ament_cmake'
+[1.584s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/fra/master_ws_test/src/arm_moveit_config'
+[1.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.585s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.604s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/fra/master_ws_test/src/cobot_camera_moveit_config' with build type 'ament_cmake'
+[1.605s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/fra/master_ws_test/src/cobot_camera_moveit_config'
+[1.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.607s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.627s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/fra/master_ws_test/src/six_arm_moveit_config' with build type 'ament_cmake'
+[1.627s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/fra/master_ws_test/src/six_arm_moveit_config'
+[1.628s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.628s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.664s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/arm_moveit_config': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/arm_moveit_config -- -j12 -l12[0m
+[1.676s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_camera_moveit_config -- -j12 -l12[0m
+[1.685s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/six_arm_moveit_config': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm_moveit_config -- -j12 -l12[0m
+[1.772s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/arm_moveit_config -- -j12 -l12[0m
+[1.779s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/arm_moveit_config': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/arm_moveit_config[0m
+[1.784s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_camera_moveit_config -- -j12 -l12[0m
+[1.790s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_camera_moveit_config[0m
+[1.798s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/six_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm_moveit_config -- -j12 -l12[0m
+[1.805s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/fra/master_ws_test/build/six_arm_moveit_config': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm_moveit_config[0m
+[1.815s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_moveit_config)
+[1.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake module files
+[1.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake config files
+[1.838s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/arm_moveit_config[0m
+[1.841s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_moveit_config', 'cmake_prefix_path')
+[1.842s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.ps1'
+[1.844s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.dsv'
+[1.846s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.sh'
+[1.855s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[1.855s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/pkgconfig/arm_moveit_config.pc'
+[1.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/python3.10/site-packages'
+[1.858s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[1.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.ps1'
+[1.866s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.dsv'
+[1.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.sh'
+[1.875s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.bash'
+[1.876s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.zsh'
+[1.877s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/arm_moveit_config/share/colcon-core/packages/arm_moveit_config)
+[1.879s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_moveit_config)
+[1.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake module files
+[1.882s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake config files
+[1.883s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_moveit_config', 'cmake_prefix_path')
+[1.883s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.ps1'
+[1.885s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.dsv'
+[1.886s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.sh'
+[1.888s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[1.888s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/pkgconfig/arm_moveit_config.pc'
+[1.889s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/python3.10/site-packages'
+[1.890s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[1.891s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.ps1'
+[1.894s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.dsv'
+[1.896s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.sh'
+[1.898s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.bash'
+[1.899s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.zsh'
+[1.901s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/arm_moveit_config/share/colcon-core/packages/arm_moveit_config)
+[1.904s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cobot_camera_moveit_config)
+[1.906s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake module files
+[1.907s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_camera_moveit_config[0m
+[1.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake config files
+[1.910s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cobot_camera_moveit_config', 'cmake_prefix_path')
+[1.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.ps1'
+[1.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.dsv'
+[1.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.sh'
+[1.916s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[1.916s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/pkgconfig/cobot_camera_moveit_config.pc'
+[1.917s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/python3.10/site-packages'
+[1.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[1.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.ps1'
+[1.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.dsv'
+[1.922s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.sh'
+[1.923s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.bash'
+[1.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.zsh'
+[1.928s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/colcon-core/packages/cobot_camera_moveit_config)
+[1.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cobot_camera_moveit_config)
+[1.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake module files
+[1.936s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake config files
+[1.937s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cobot_camera_moveit_config', 'cmake_prefix_path')
+[1.938s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.ps1'
+[1.939s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.dsv'
+[1.941s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.sh'
+[1.944s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[1.944s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/pkgconfig/cobot_camera_moveit_config.pc'
+[1.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/python3.10/site-packages'
+[1.946s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[1.947s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.ps1'
+[1.949s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.dsv'
+[1.950s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.sh'
+[1.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.bash'
+[1.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.zsh'
+[1.955s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/colcon-core/packages/cobot_camera_moveit_config)
+[1.956s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(six_arm_moveit_config)
+[1.957s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake module files
+[1.960s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/six_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/master_ws_test/install/cobot_ik:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_camera_moveit_config:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm_moveit_config[0m
+[1.962s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake config files
+[1.963s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('six_arm_moveit_config', 'cmake_prefix_path')
+[1.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[1.965s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[1.966s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.sh'
+[1.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[1.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/pkgconfig/six_arm_moveit_config.pc'
+[1.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/python3.10/site-packages'
+[1.970s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[1.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.ps1'
+[1.973s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.dsv'
+[1.974s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.sh'
+[1.976s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.bash'
+[1.977s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.zsh'
+[1.978s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm_moveit_config/share/colcon-core/packages/six_arm_moveit_config)
+[1.980s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(six_arm_moveit_config)
+[1.981s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake module files
+[1.983s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake config files
+[1.984s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('six_arm_moveit_config', 'cmake_prefix_path')
+[1.984s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[1.986s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[1.987s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.sh'
+[1.989s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[1.989s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/pkgconfig/six_arm_moveit_config.pc'
+[1.990s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/python3.10/site-packages'
+[1.991s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[1.992s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.ps1'
+[1.994s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.dsv'
+[1.995s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.sh'
+[1.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.bash'
+[1.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.zsh'
+[2.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm_moveit_config/share/colcon-core/packages/six_arm_moveit_config)
+[2.282s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/gazebo_dev' returned '1': /usr/bin/cmake /home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_dev -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/gazebo_dev[0m
+[2.286s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/fra/master_ws_test/build/gazebo_msgs' returned '1': /usr/bin/cmake /home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/gazebo_msgs[0m
+[2.315s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(gazebo_dev)
+[2.316s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/gazebo_dev' for CMake module files
+[2.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/gazebo_dev' for CMake config files
+[2.319s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/gazebo_dev/bin'
+[2.319s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[2.320s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/gazebo_dev/lib/python3.10/site-packages'
+[2.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/fra/master_ws_test/install/gazebo_dev/bin'
+[2.322s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[2.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/fra/master_ws_test/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[2.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/gazebo_dev/share/gazebo_dev/package.sh'
+[2.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/gazebo_dev/share/gazebo_dev/package.bash'
+[2.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/fra/master_ws_test/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[2.328s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[2.341s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.342s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.342s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[2.342s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.360s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.361s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.361s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.409s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/fra/master_ws_test/install/local_setup.ps1'
+[2.414s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/fra/master_ws_test/install/_local_setup_util_ps1.py'
+[2.419s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/fra/master_ws_test/install/setup.ps1'
+[2.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/fra/master_ws_test/install/local_setup.sh'
+[2.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/fra/master_ws_test/install/_local_setup_util_sh.py'
+[2.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/fra/master_ws_test/install/setup.sh'
+[2.434s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/fra/master_ws_test/install/local_setup.bash'
+[2.436s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/fra/master_ws_test/install/setup.bash'
+[2.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/fra/master_ws_test/install/local_setup.zsh'
+[2.443s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/fra/master_ws_test/install/setup.zsh'

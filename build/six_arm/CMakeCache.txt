@@ -394,6 +394,9 @@ libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/c
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
 
+//The directory containing a CMake configuration file for linkattacher_msgs.
+linkattacher_msgs_DIR:PATH=/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/cmake
+
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
@@ -441,6 +444,9 @@ rmw_implementation_DIR:PATH=/opt/ros/humble/share/rmw_implementation/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
 rmw_implementation_cmake_DIR:PATH=/opt/ros/humble/share/rmw_implementation_cmake/cmake
+
+//The directory containing a CMake configuration file for ros2_LinkAttacher.
+ros2_LinkAttacher_DIR:PATH=ros2_LinkAttacher_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/humble/share/rosgraph_msgs/cmake

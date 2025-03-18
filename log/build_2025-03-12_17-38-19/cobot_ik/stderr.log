@@ -1,0 +1,7 @@
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/srv/set_link_state.hpp: No such file or directory
+   11 | #include [01;31m[K<gazebo_msgs/srv/set_link_state.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pick_place_fake_gripping.dir/build.make:76: CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pick_place_fake_gripping.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

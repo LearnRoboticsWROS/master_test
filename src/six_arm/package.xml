@@ -14,6 +14,7 @@
   <test_depend>rclcpp</test_depend>
   <test_depend>trajectory_msgs</test_depend>
 
+
   <export>
     <build_type>ament_cmake</build_type>
     <gazebo_ros  gazebo_model_path = "/home/fra/master_ws_test/install/six_arm/share/"/>

@@ -9,6 +9,16 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(gazebo_msgs REQUIRED)
+
+
+# find_package(gazebo_ros_link_attacher REQUIRED)
+find_package(linkattacher_msgs REQUIRED)  
+find_package(ros2_linkattacher REQUIRED)  
+find_package(gazebo_ros REQUIRED)
+
+
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -28,9 +38,21 @@ ament_target_dependencies(test_ik rclcpp moveit_ros_planning_interface)
 add_executable(pick_place src/pick_place.cpp)
 ament_target_dependencies(pick_place rclcpp moveit_ros_planning_interface)
 
+add_executable(pick_place_fake_gripping src/pick_place_fake_gripping.cpp)
+ament_target_dependencies(pick_place_fake_gripping rclcpp moveit_ros_planning_interface gazebo_msgs)
+
+add_executable(pick_place_link_attacher src/pick_place_link_attacher.cpp)
+ament_target_dependencies(pick_place_link_attacher rclcpp moveit_ros_planning_interface gazebo_msgs linkattacher_msgs ros2_linkattacher)
+
+add_executable(attach src/attach.cpp)
+ament_target_dependencies(attach rclcpp moveit_ros_planning_interface gazebo_msgs linkattacher_msgs ros2_linkattacher)
+
 install(TARGETS 
   test_ik
   pick_place
+  pick_place_fake_gripping
+  pick_place_link_attacher
+  attach
   DESTINATION lib/${PROJECT_NAME}/
 )
 

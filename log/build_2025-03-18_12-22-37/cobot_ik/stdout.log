@@ -1,0 +1,5 @@
+[ 20%] Built target attach
+[ 70%] Built target test_ik
+[ 80%] Built target pick_place
+[ 80%] Built target pick_place_fake_gripping
+[ 90%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m

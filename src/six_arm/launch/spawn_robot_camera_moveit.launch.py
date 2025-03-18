@@ -67,6 +67,12 @@ def generate_launch_description():
         }.items()
     )
 
+    # gazebo_verbose = ExecuteProcess(
+    #     cmd=["gazebo", "--verbose"],
+    #     output="screen"
+    # )
+
+
     rviz_config_path = os.path.join(
         get_package_share_directory("cobot_camera_moveit_config"),
         "config",
@@ -197,6 +203,7 @@ def generate_launch_description():
     ld.add_action(y_arg)
     ld.add_action(z_arg)
     ld.add_action(gazebo)
+    #ld.add_action(gazebo_verbose)
     ld.add_action(controller_manager_node)  # Deve essere avviato prima degli spawner
     ld.add_action(spawn_the_robot)
     ld.add_action(robot_state_publisher)

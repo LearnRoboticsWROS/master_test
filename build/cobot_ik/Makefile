@@ -223,6 +223,69 @@ pick_place/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/build
 .PHONY : pick_place/fast
 
+#=============================================================================
+# Target rules for targets named pick_place_fake_gripping
+
+# Build rule for target.
+pick_place_fake_gripping: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pick_place_fake_gripping
+.PHONY : pick_place_fake_gripping
+
+# fast build rule for target.
+pick_place_fake_gripping/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_fake_gripping.dir/build.make CMakeFiles/pick_place_fake_gripping.dir/build
+.PHONY : pick_place_fake_gripping/fast
+
+#=============================================================================
+# Target rules for targets named pick_place_link_attacher
+
+# Build rule for target.
+pick_place_link_attacher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pick_place_link_attacher
+.PHONY : pick_place_link_attacher
+
+# fast build rule for target.
+pick_place_link_attacher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_link_attacher.dir/build.make CMakeFiles/pick_place_link_attacher.dir/build
+.PHONY : pick_place_link_attacher/fast
+
+#=============================================================================
+# Target rules for targets named attach
+
+# Build rule for target.
+attach: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 attach
+.PHONY : attach
+
+# fast build rule for target.
+attach/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attach.dir/build.make CMakeFiles/attach.dir/build
+.PHONY : attach/fast
+
+src/attach.o: src/attach.cpp.o
+.PHONY : src/attach.o
+
+# target to build an object file
+src/attach.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attach.dir/build.make CMakeFiles/attach.dir/src/attach.cpp.o
+.PHONY : src/attach.cpp.o
+
+src/attach.i: src/attach.cpp.i
+.PHONY : src/attach.i
+
+# target to preprocess a source file
+src/attach.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attach.dir/build.make CMakeFiles/attach.dir/src/attach.cpp.i
+.PHONY : src/attach.cpp.i
+
+src/attach.s: src/attach.cpp.s
+.PHONY : src/attach.s
+
+# target to generate assembly for a file
+src/attach.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attach.dir/build.make CMakeFiles/attach.dir/src/attach.cpp.s
+.PHONY : src/attach.cpp.s
+
 src/pick_place.o: src/pick_place.cpp.o
 .PHONY : src/pick_place.o
 
@@ -246,6 +309,54 @@ src/pick_place.s: src/pick_place.cpp.s
 src/pick_place.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place.dir/build.make CMakeFiles/pick_place.dir/src/pick_place.cpp.s
 .PHONY : src/pick_place.cpp.s
+
+src/pick_place_fake_gripping.o: src/pick_place_fake_gripping.cpp.o
+.PHONY : src/pick_place_fake_gripping.o
+
+# target to build an object file
+src/pick_place_fake_gripping.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_fake_gripping.dir/build.make CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o
+.PHONY : src/pick_place_fake_gripping.cpp.o
+
+src/pick_place_fake_gripping.i: src/pick_place_fake_gripping.cpp.i
+.PHONY : src/pick_place_fake_gripping.i
+
+# target to preprocess a source file
+src/pick_place_fake_gripping.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_fake_gripping.dir/build.make CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.i
+.PHONY : src/pick_place_fake_gripping.cpp.i
+
+src/pick_place_fake_gripping.s: src/pick_place_fake_gripping.cpp.s
+.PHONY : src/pick_place_fake_gripping.s
+
+# target to generate assembly for a file
+src/pick_place_fake_gripping.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_fake_gripping.dir/build.make CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.s
+.PHONY : src/pick_place_fake_gripping.cpp.s
+
+src/pick_place_link_attacher.o: src/pick_place_link_attacher.cpp.o
+.PHONY : src/pick_place_link_attacher.o
+
+# target to build an object file
+src/pick_place_link_attacher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_link_attacher.dir/build.make CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o
+.PHONY : src/pick_place_link_attacher.cpp.o
+
+src/pick_place_link_attacher.i: src/pick_place_link_attacher.cpp.i
+.PHONY : src/pick_place_link_attacher.i
+
+# target to preprocess a source file
+src/pick_place_link_attacher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_link_attacher.dir/build.make CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.i
+.PHONY : src/pick_place_link_attacher.cpp.i
+
+src/pick_place_link_attacher.s: src/pick_place_link_attacher.cpp.s
+.PHONY : src/pick_place_link_attacher.s
+
+# target to generate assembly for a file
+src/pick_place_link_attacher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_link_attacher.dir/build.make CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.s
+.PHONY : src/pick_place_link_attacher.cpp.s
 
 src/test_ik.o: src/test_ik.cpp.o
 .PHONY : src/test_ik.o
@@ -286,11 +397,23 @@ help:
 	@echo "... test"
 	@echo "... cobot_ik_uninstall"
 	@echo "... uninstall"
+	@echo "... attach"
 	@echo "... pick_place"
+	@echo "... pick_place_fake_gripping"
+	@echo "... pick_place_link_attacher"
 	@echo "... test_ik"
+	@echo "... src/attach.o"
+	@echo "... src/attach.i"
+	@echo "... src/attach.s"
 	@echo "... src/pick_place.o"
 	@echo "... src/pick_place.i"
 	@echo "... src/pick_place.s"
+	@echo "... src/pick_place_fake_gripping.o"
+	@echo "... src/pick_place_fake_gripping.i"
+	@echo "... src/pick_place_fake_gripping.s"
+	@echo "... src/pick_place_link_attacher.o"
+	@echo "... src/pick_place_link_attacher.i"
+	@echo "... src/pick_place_link_attacher.s"
 	@echo "... src/test_ik.o"
 	@echo "... src/test_ik.i"
 	@echo "... src/test_ik.s"

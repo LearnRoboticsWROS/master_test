@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[0.067s] [ 33%] Built target test_ik
+[0.068s] [ 66%] Built target pick_place
+[0.072s] [ 83%] [32mBuilding CXX object CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o[0m
+[4.525s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace(rclcpp::Node::SharedPtr)[m[K’:
+[4.525s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:31:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kcreate_client[m[K’
+[4.525s]    31 |         set_link_state_client = this->[01;31m[Kcreate_client[m[K<gazebo_msgs::srv::SetLinkState>("/gazebo/set_link_state");
+[4.525s]       |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[4.525s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:31:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.525s]    31 |         set_link_state_client = this->create_client<gazebo_msgs::srv::SetLinkState[01;31m[K>[m[K("/gazebo/set_link_state");
+[4.525s]       |                                                                                   [01;31m[K^[m[K
+[4.526s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:32:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kcreate_client[m[K’
+[4.526s]    32 |         get_link_state_client = this->[01;31m[Kcreate_client[m[K<gazebo_msgs::srv::GetLinkState>("/gazebo/get_link_state");
+[4.526s]       |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[4.526s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:32:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.526s]    32 |         get_link_state_client = this->create_client<gazebo_msgs::srv::GetLinkState[01;31m[K>[m[K("/gazebo/get_link_state");
+[4.526s]       |                                                                                   [01;31m[K^[m[K
+[4.526s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_fake_gripping.cpp:34:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PickAndPlace[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[4.526s]    34 |         timer_ = this->[01;31m[Kcreate_wall_timer[m[K(std::chrono::milliseconds(10),
+[4.526s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.043s] gmake[2]: *** [CMakeFiles/pick_place_fake_gripping.dir/build.make:76: CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o] Error 1
+[7.043s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pick_place_fake_gripping.dir/all] Error 2
+[7.043s] gmake: *** [Makefile:146: all] Error 2
+[7.045s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12

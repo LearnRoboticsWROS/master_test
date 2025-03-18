@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[ 25%] Built target test_ik
+[ 50%] Built target pick_place
+[ 75%] Built target pick_place_fake_gripping
+[ 87%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m

@@ -1,5 +1,8 @@
 /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
 /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher
+/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach
 /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
 /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
 /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh

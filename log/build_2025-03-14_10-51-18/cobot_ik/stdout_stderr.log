@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[ 62%] Built target pick_place
+[ 62%] Built target test_ik
+[ 75%] Built target pick_place_fake_gripping
+[ 87%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:23:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   23 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace(rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:22:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Knode_[m[K’
+   22 |           [01;31m[Knode_[m[K(node);
+      |           [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_place_link_attacher.dir/build.make:76: CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/pick_place_link_attacher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

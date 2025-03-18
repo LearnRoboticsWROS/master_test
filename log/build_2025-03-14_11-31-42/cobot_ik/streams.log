@@ -1,0 +1,43 @@
+[0.015s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.036s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.159s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.173s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.207s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.209s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.214s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.434s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.460s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.596s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.616s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.644s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.669s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.773s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.801s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.820s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.846s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[0.874s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.874s]   By not providing "Findgazebo_ros_link_attacher.cmake" in CMAKE_MODULE_PATH
+[0.874s]   this project has asked CMake to find a package configuration file provided
+[0.874s]   by "gazebo_ros_link_attacher", but CMake did not find one.
+[0.874s] 
+[0.874s]   Could not find a package configuration file provided by
+[0.874s]   "gazebo_ros_link_attacher" with any of the following names:
+[0.874s] 
+[0.874s]     gazebo_ros_link_attacherConfig.cmake
+[0.874s]     gazebo_ros_link_attacher-config.cmake
+[0.874s] 
+[0.874s]   Add the installation prefix of "gazebo_ros_link_attacher" to
+[0.875s]   CMAKE_PREFIX_PATH or set "gazebo_ros_link_attacher_DIR" to a directory
+[0.875s]   containing one of the above files.  If "gazebo_ros_link_attacher" provides
+[0.875s]   a separate development package or SDK, be sure it has been installed.
+[0.875s] 
+[0.875s] [0m
+[0.875s] -- Configuring incomplete, errors occurred!
+[0.875s] See also "/home/fra/master_ws_test/build/cobot_ik/CMakeFiles/CMakeOutput.log".
+[0.882s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[0.883s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12

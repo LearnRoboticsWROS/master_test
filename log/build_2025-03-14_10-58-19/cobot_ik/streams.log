@@ -1,0 +1,40 @@
+[0.015s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[0.070s] [ 25%] Built target pick_place_fake_gripping
+[0.070s] [ 50%] Built target pick_place
+[0.071s] [ 75%] Built target test_ik
+[0.075s] [ 87%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m
+[4.508s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:[m[K In constructor ‘[01m[KPickAndPlace::PickAndPlace(rclcpp::Node::SharedPtr)[m[K’:
+[4.508s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:239:56:[m[K [01;35m[Kwarning: [m[K‘[01m[KPickAndPlace::planning_scene_interface[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.508s]   239 |     moveit::planning_interface::PlanningSceneInterface [01;35m[Kplanning_scene_interface[m[K;
+[4.508s]       |                                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.509s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:236:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krclcpp::Logger PickAndPlace::logger[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.509s]   236 |     rclcpp::Logger [01;35m[Klogger[m[K;
+[4.509s]       |                    [01;35m[K^~~~~~[m[K
+[4.509s] [01m[K/home/fra/master_ws_test/src/cobot_ik/src/pick_place_link_attacher.cpp:16:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.509s]    16 |     [01;35m[KPickAndPlace[m[K(rclcpp::Node::SharedPtr node)
+[4.509s]       |     [01;35m[K^~~~~~~~~~~~[m[K
+[8.009s] [100%] [32m[1mLinking CXX executable pick_place_link_attacher[0m
+[8.342s] [100%] Built target pick_place_link_attacher
+[8.355s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[8.357s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[8.363s] -- Install configuration: ""
+[8.363s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+[8.363s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+[8.363s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+[8.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+[8.364s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+[8.365s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+[8.365s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+[8.365s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+[8.365s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml
+[8.366s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik

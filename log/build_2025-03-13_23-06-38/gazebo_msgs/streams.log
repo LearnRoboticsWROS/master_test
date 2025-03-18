@@ -1,0 +1,33 @@
+[0.089s] Invoking command in '/home/fra/master_ws_test/build/gazebo_msgs': /usr/bin/cmake /home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/gazebo_msgs
+[0.319s] -- The C compiler identification is GNU 11.4.0
+[0.538s] -- The CXX compiler identification is GNU 11.4.0
+[0.572s] -- Detecting C compiler ABI info
+[0.779s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.811s] -- Detecting C compile features
+[0.815s] -- Detecting C compile features - done
+[0.827s] -- Detecting CXX compiler ABI info
+[1.071s] -- Detecting CXX compiler ABI info - done
+[1.106s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.107s] -- Detecting CXX compile features
+[1.109s] -- Detecting CXX compile features - done
+[1.158s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.158s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.159s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.159s]   CMake did not find one.
+[1.159s] 
+[1.159s]   Could not find a package configuration file provided by "catkin" with any
+[1.159s]   of the following names:
+[1.160s] 
+[1.160s]     catkinConfig.cmake
+[1.160s]     catkin-config.cmake
+[1.161s] 
+[1.161s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.162s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.162s]   provides a separate development package or SDK, be sure it has been
+[1.162s]   installed.
+[1.162s] 
+[1.163s] [0m
+[1.165s] -- Configuring incomplete, errors occurred!
+[1.167s] See also "/home/fra/master_ws_test/build/gazebo_msgs/CMakeFiles/CMakeOutput.log".
+[1.171s] Invoked command in '/home/fra/master_ws_test/build/gazebo_msgs' returned '1': /usr/bin/cmake /home/fra/master_ws_test/src/gazebo_ros_pkgs/gazebo_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_test/install/gazebo_msgs

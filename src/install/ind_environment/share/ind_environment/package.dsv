@@ -1,0 +1,8 @@
+source;share/ind_environment/hook/cmake_prefix_path.ps1
+source;share/ind_environment/hook/cmake_prefix_path.dsv
+source;share/ind_environment/hook/cmake_prefix_path.sh
+source;share/ind_environment/local_setup.bash
+source;share/ind_environment/local_setup.dsv
+source;share/ind_environment/local_setup.ps1
+source;share/ind_environment/local_setup.sh
+source;share/ind_environment/local_setup.zsh

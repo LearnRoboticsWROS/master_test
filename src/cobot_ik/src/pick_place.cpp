@@ -42,11 +42,12 @@ public:
         // Creazione della posa target per il pick
         geometry_msgs::msg::Pose pick_pose;
         tf2::Quaternion orientation;
-        orientation.setRPY(0, 0, 0);
+        
+        orientation.setRPY(-tau/4, 0.225, 0);
         pick_pose.orientation = tf2::toMsg(orientation);
-        pick_pose.position.x = 0.5;
-        pick_pose.position.y = 0.5;
-        pick_pose.position.z = 0.5;
+        pick_pose.position.x = 0.6;
+        pick_pose.position.y = 0.0;
+        pick_pose.position.z = 0.3;
 
         move_group.setPoseTarget(pick_pose, "picking_point");
 
