@@ -1,0 +1,188 @@
+[0.015s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.181s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.191s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.217s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.220s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.430s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.456s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.482s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.484s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.582s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.628s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.649s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.679s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.705s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.816s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.847s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.867s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.894s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[0.912s] -- Found linkattacher_msgs: 0.0.0 (/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[0.921s] -- Found ros2_linkattacher: 0.0.0 (/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/cmake)
+[0.921s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.949s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.961s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.969s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.970s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.974s] -- Searching for dependencies of ignition-math6
+[0.975s] -- Looking for OGRE...
+[0.980s] -- Found Ogre Ghadamon (1.9.0)
+[0.980s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.989s] -- Looking for OGRE_Paging...
+[0.990s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.990s] -- Looking for OGRE_Terrain...
+[0.990s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.990s] -- Looking for OGRE_Property...
+[0.990s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.990s] -- Looking for OGRE_RTShaderSystem...
+[0.990s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.991s] -- Looking for OGRE_Volume...
+[0.991s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.991s] -- Looking for OGRE_Overlay...
+[0.991s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.126s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.127s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.127s] -- Searching for dependencies of ignition-transport8
+[1.146s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.157s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.161s] -- Checking for module 'libzmq >= 4'
+[1.173s] --   Found libzmq , version 4.3.4
+[1.207s] -- Checking for module 'uuid'
+[1.218s] --   Found uuid, version 2.37.2
+[1.254s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.255s] -- Searching for dependencies of ignition-msgs5
+[1.279s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.285s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.286s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.286s] -- Searching for dependencies of ignition-common3
+[1.287s] -- Looking for dlfcn.h - found
+[1.287s] -- Looking for libdl - found
+[1.296s] -- Searching for <ignition-common3> component [graphics]
+[1.297s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.297s] -- Searching for dependencies of ignition-common3-graphics
+[1.298s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.299s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.299s] -- Searching for dependencies of ignition-fuel_tools4
+[1.339s] -- Checking for module 'jsoncpp'
+[1.351s] --   Found jsoncpp, version 1.9.5
+[1.388s] -- Checking for module 'libzip'
+[1.401s] --   Found libzip, version 1.7.3
+[1.441s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.441s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.442s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.445s] -- Gazebo version: 11.10
+[1.462s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.514s] -- Checking for module 'eigen3'
+[1.527s] --   Found eigen3, version 3.4.0
+[1.558s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.558s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.583s] -- Checking for module 'flann'
+[1.596s] --   Found flann, version 1.9.1
+[1.632s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.632s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.538s] -- Checking for module 'libusb-1.0'
+[2.550s] --   Found libusb-1.0, version 1.0.25
+[2.582s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.583s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.636s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.782s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.788s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.793s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.945s] -- Found Qhull version 8.0.2
+[3.091s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.233s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.234s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.235s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.236s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.237s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.238s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.238s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.239s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.239s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.241s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.242s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.242s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.244s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.245s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.246s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.247s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.248s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.249s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.250s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.251s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.252s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.252s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.253s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.254s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.255s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.270s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.282s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[3.282s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.282s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.283s]   command to set the policy and suppress this warning.
+[3.283s] 
+[3.283s]   CMake variable PCL_ROOT is set to:
+[3.283s] 
+[3.283s]     /usr
+[3.283s] 
+[3.283s]   For compatibility, CMake is ignoring the variable.
+[3.283s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.283s] [0m
+[3.289s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.420s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.420s] -- Configured cppcheck include dirs: 
+[3.421s] -- Configured cppcheck exclude dirs and/or files: 
+[3.421s] -- Added test 'lint_cmake' to check CMake code style
+[3.422s] -- Added test 'uncrustify' to check C / C++ code style
+[3.422s] -- Configured uncrustify additional arguments: 
+[3.422s] -- Added test 'xmllint' to check XML markup files
+[3.423s] -- Configuring done
+[3.574s] -- Generating done
+[3.615s] -- Build files have been written to: /home/fra/master_ws_test/build/cobot_ik
+[3.654s] [35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[3.654s] [35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[3.654s] [35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[3.658s] [35m[1mConsolidate compiler generated dependencies of target attach[0m
+[3.659s] [35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[3.668s] [ 14%] [32mBuilding CXX object CMakeFiles/process_points_stream.dir/src/process_points_stream.cpp.o[0m
+[3.668s] [ 14%] [32mBuilding CXX object CMakeFiles/test_pick_care_waypoints.dir/src/test_pick_care_waypoints.cpp.o[0m
+[3.680s] [ 42%] Built target pick_place_link_attacher
+[3.680s] [ 42%] Built target test_ik
+[3.682s] [ 57%] Built target attach
+[3.686s] [ 71%] Built target pick_place
+[3.686s] [ 85%] Built target pick_place_fake_gripping
+[17.192s] [ 92%] [32m[1mLinking CXX executable process_points_stream[0m
+[18.111s] [100%] [32m[1mLinking CXX executable test_pick_care_waypoints[0m
+[18.735s] [100%] Built target process_points_stream
+[19.333s] [100%] Built target test_pick_care_waypoints
+[19.347s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j12 -l12
+[19.349s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[19.356s] -- Install configuration: ""
+[19.356s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+[19.356s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+[19.357s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+[19.357s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher
+[19.357s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach
+[19.357s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/process_points_stream
+[19.361s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/process_points_stream" to ""
+[19.361s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care_waypoints
+[19.364s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care_waypoints" to ""
+[19.364s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+[19.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+[19.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+[19.364s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+[19.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+[19.364s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+[19.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+[19.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+[19.364s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+[19.365s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+[19.365s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+[19.365s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+[19.365s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+[19.365s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+[19.365s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml
+[19.367s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/home/fra/ros2_master_ws/install/ros2_linkattacher:/home/fra/ros2_master_ws/install/linkattacher_msgs:/home/fra/ros2_master_ws/install/ind_environment:/home/fra/ros2_master_ws/install/custom_robot_moveit_config:/home/fra/ros2_master_ws/install/custom_robot_ik:/home/fra/ros2_master_ws/install/cobot_gazebo:/home/fra/ros2_master_ws/install/cobot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/home/fra/ros2_master_ws/install/ros2_linkattacher/lib:/home/fra/ros2_master_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik

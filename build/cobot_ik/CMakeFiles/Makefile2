@@ -68,6 +68,9 @@ all: CMakeFiles/pick_place.dir/all
 all: CMakeFiles/pick_place_fake_gripping.dir/all
 all: CMakeFiles/pick_place_link_attacher.dir/all
 all: CMakeFiles/attach.dir/all
+all: CMakeFiles/process_points_stream.dir/all
+all: CMakeFiles/test_pick_care_waypoints.dir/all
+all: CMakeFiles/test_pick_care.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -82,6 +85,9 @@ clean: CMakeFiles/pick_place.dir/clean
 clean: CMakeFiles/pick_place_fake_gripping.dir/clean
 clean: CMakeFiles/pick_place_link_attacher.dir/clean
 clean: CMakeFiles/attach.dir/clean
+clean: CMakeFiles/process_points_stream.dir/clean
+clean: CMakeFiles/test_pick_care_waypoints.dir/clean
+clean: CMakeFiles/test_pick_care.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -143,7 +149,7 @@ CMakeFiles/cobot_ik_uninstall.dir/clean:
 CMakeFiles/test_ik.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fra/master_ws_test/build/cobot_ik/CMakeFiles --progress-num=9,10 "Built target test_ik"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fra/master_ws_test/build/cobot_ik/CMakeFiles --progress-num=11,12 "Built target test_ik"
 .PHONY : CMakeFiles/test_ik.dir/all
 
 # Build rule for subdir invocation for target.
@@ -265,6 +271,84 @@ attach: CMakeFiles/attach.dir/rule
 CMakeFiles/attach.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/attach.dir/build.make CMakeFiles/attach.dir/clean
 .PHONY : CMakeFiles/attach.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/process_points_stream.dir
+
+# All Build rule for target.
+CMakeFiles/process_points_stream.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/process_points_stream.dir/build.make CMakeFiles/process_points_stream.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/process_points_stream.dir/build.make CMakeFiles/process_points_stream.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fra/master_ws_test/build/cobot_ik/CMakeFiles --progress-num=9,10 "Built target process_points_stream"
+.PHONY : CMakeFiles/process_points_stream.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/process_points_stream.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fra/master_ws_test/build/cobot_ik/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/process_points_stream.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fra/master_ws_test/build/cobot_ik/CMakeFiles 0
+.PHONY : CMakeFiles/process_points_stream.dir/rule
+
+# Convenience name for target.
+process_points_stream: CMakeFiles/process_points_stream.dir/rule
+.PHONY : process_points_stream
+
+# clean rule for target.
+CMakeFiles/process_points_stream.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/process_points_stream.dir/build.make CMakeFiles/process_points_stream.dir/clean
+.PHONY : CMakeFiles/process_points_stream.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_pick_care_waypoints.dir
+
+# All Build rule for target.
+CMakeFiles/test_pick_care_waypoints.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care_waypoints.dir/build.make CMakeFiles/test_pick_care_waypoints.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care_waypoints.dir/build.make CMakeFiles/test_pick_care_waypoints.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fra/master_ws_test/build/cobot_ik/CMakeFiles --progress-num=15,16 "Built target test_pick_care_waypoints"
+.PHONY : CMakeFiles/test_pick_care_waypoints.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_pick_care_waypoints.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fra/master_ws_test/build/cobot_ik/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_pick_care_waypoints.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fra/master_ws_test/build/cobot_ik/CMakeFiles 0
+.PHONY : CMakeFiles/test_pick_care_waypoints.dir/rule
+
+# Convenience name for target.
+test_pick_care_waypoints: CMakeFiles/test_pick_care_waypoints.dir/rule
+.PHONY : test_pick_care_waypoints
+
+# clean rule for target.
+CMakeFiles/test_pick_care_waypoints.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care_waypoints.dir/build.make CMakeFiles/test_pick_care_waypoints.dir/clean
+.PHONY : CMakeFiles/test_pick_care_waypoints.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_pick_care.dir
+
+# All Build rule for target.
+CMakeFiles/test_pick_care.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care.dir/build.make CMakeFiles/test_pick_care.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care.dir/build.make CMakeFiles/test_pick_care.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fra/master_ws_test/build/cobot_ik/CMakeFiles --progress-num=13,14 "Built target test_pick_care"
+.PHONY : CMakeFiles/test_pick_care.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_pick_care.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fra/master_ws_test/build/cobot_ik/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_pick_care.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fra/master_ws_test/build/cobot_ik/CMakeFiles 0
+.PHONY : CMakeFiles/test_pick_care.dir/rule
+
+# Convenience name for target.
+test_pick_care: CMakeFiles/test_pick_care.dir/rule
+.PHONY : test_pick_care
+
+# clean rule for target.
+CMakeFiles/test_pick_care.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care.dir/build.make CMakeFiles/test_pick_care.dir/clean
+.PHONY : CMakeFiles/test_pick_care.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

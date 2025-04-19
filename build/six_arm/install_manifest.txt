@@ -5,6 +5,7 @@
 /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_controllers.launch.py
 /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_namespace.launch.py
 /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_camera.launch.py
+/home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_patience_moveit.launch.py
 /home/fra/master_ws_test/install/six_arm/share/six_arm/launch/spawn_robot_moveit.launch.py
 /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/red_cube.xacro
 /home/fra/master_ws_test/install/six_arm/share/six_arm/urdf/cobot_camera.urdf.xacro

@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target attach[0m
+[35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[ 20%] Built target attach
+[ 80%] Built target test_ik
+[ 80%] Built target pick_place
+[ 80%] Built target pick_place_fake_gripping
+[100%] Built target pick_place_link_attacher
+-- Install configuration: ""
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml

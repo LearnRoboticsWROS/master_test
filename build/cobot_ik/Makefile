@@ -262,6 +262,45 @@ attach/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/attach.dir/build.make CMakeFiles/attach.dir/build
 .PHONY : attach/fast
 
+#=============================================================================
+# Target rules for targets named process_points_stream
+
+# Build rule for target.
+process_points_stream: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 process_points_stream
+.PHONY : process_points_stream
+
+# fast build rule for target.
+process_points_stream/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/process_points_stream.dir/build.make CMakeFiles/process_points_stream.dir/build
+.PHONY : process_points_stream/fast
+
+#=============================================================================
+# Target rules for targets named test_pick_care_waypoints
+
+# Build rule for target.
+test_pick_care_waypoints: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_pick_care_waypoints
+.PHONY : test_pick_care_waypoints
+
+# fast build rule for target.
+test_pick_care_waypoints/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care_waypoints.dir/build.make CMakeFiles/test_pick_care_waypoints.dir/build
+.PHONY : test_pick_care_waypoints/fast
+
+#=============================================================================
+# Target rules for targets named test_pick_care
+
+# Build rule for target.
+test_pick_care: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_pick_care
+.PHONY : test_pick_care
+
+# fast build rule for target.
+test_pick_care/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care.dir/build.make CMakeFiles/test_pick_care.dir/build
+.PHONY : test_pick_care/fast
+
 src/attach.o: src/attach.cpp.o
 .PHONY : src/attach.o
 
@@ -358,6 +397,30 @@ src/pick_place_link_attacher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_link_attacher.dir/build.make CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.s
 .PHONY : src/pick_place_link_attacher.cpp.s
 
+src/process_points_stream.o: src/process_points_stream.cpp.o
+.PHONY : src/process_points_stream.o
+
+# target to build an object file
+src/process_points_stream.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/process_points_stream.dir/build.make CMakeFiles/process_points_stream.dir/src/process_points_stream.cpp.o
+.PHONY : src/process_points_stream.cpp.o
+
+src/process_points_stream.i: src/process_points_stream.cpp.i
+.PHONY : src/process_points_stream.i
+
+# target to preprocess a source file
+src/process_points_stream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/process_points_stream.dir/build.make CMakeFiles/process_points_stream.dir/src/process_points_stream.cpp.i
+.PHONY : src/process_points_stream.cpp.i
+
+src/process_points_stream.s: src/process_points_stream.cpp.s
+.PHONY : src/process_points_stream.s
+
+# target to generate assembly for a file
+src/process_points_stream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/process_points_stream.dir/build.make CMakeFiles/process_points_stream.dir/src/process_points_stream.cpp.s
+.PHONY : src/process_points_stream.cpp.s
+
 src/test_ik.o: src/test_ik.cpp.o
 .PHONY : src/test_ik.o
 
@@ -382,6 +445,54 @@ src/test_ik.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/src/test_ik.cpp.s
 .PHONY : src/test_ik.cpp.s
 
+src/test_pick_care.o: src/test_pick_care.cpp.o
+.PHONY : src/test_pick_care.o
+
+# target to build an object file
+src/test_pick_care.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care.dir/build.make CMakeFiles/test_pick_care.dir/src/test_pick_care.cpp.o
+.PHONY : src/test_pick_care.cpp.o
+
+src/test_pick_care.i: src/test_pick_care.cpp.i
+.PHONY : src/test_pick_care.i
+
+# target to preprocess a source file
+src/test_pick_care.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care.dir/build.make CMakeFiles/test_pick_care.dir/src/test_pick_care.cpp.i
+.PHONY : src/test_pick_care.cpp.i
+
+src/test_pick_care.s: src/test_pick_care.cpp.s
+.PHONY : src/test_pick_care.s
+
+# target to generate assembly for a file
+src/test_pick_care.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care.dir/build.make CMakeFiles/test_pick_care.dir/src/test_pick_care.cpp.s
+.PHONY : src/test_pick_care.cpp.s
+
+src/test_pick_care_waypoints.o: src/test_pick_care_waypoints.cpp.o
+.PHONY : src/test_pick_care_waypoints.o
+
+# target to build an object file
+src/test_pick_care_waypoints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care_waypoints.dir/build.make CMakeFiles/test_pick_care_waypoints.dir/src/test_pick_care_waypoints.cpp.o
+.PHONY : src/test_pick_care_waypoints.cpp.o
+
+src/test_pick_care_waypoints.i: src/test_pick_care_waypoints.cpp.i
+.PHONY : src/test_pick_care_waypoints.i
+
+# target to preprocess a source file
+src/test_pick_care_waypoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care_waypoints.dir/build.make CMakeFiles/test_pick_care_waypoints.dir/src/test_pick_care_waypoints.cpp.i
+.PHONY : src/test_pick_care_waypoints.cpp.i
+
+src/test_pick_care_waypoints.s: src/test_pick_care_waypoints.cpp.s
+.PHONY : src/test_pick_care_waypoints.s
+
+# target to generate assembly for a file
+src/test_pick_care_waypoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_pick_care_waypoints.dir/build.make CMakeFiles/test_pick_care_waypoints.dir/src/test_pick_care_waypoints.cpp.s
+.PHONY : src/test_pick_care_waypoints.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -401,7 +512,10 @@ help:
 	@echo "... pick_place"
 	@echo "... pick_place_fake_gripping"
 	@echo "... pick_place_link_attacher"
+	@echo "... process_points_stream"
 	@echo "... test_ik"
+	@echo "... test_pick_care"
+	@echo "... test_pick_care_waypoints"
 	@echo "... src/attach.o"
 	@echo "... src/attach.i"
 	@echo "... src/attach.s"
@@ -414,9 +528,18 @@ help:
 	@echo "... src/pick_place_link_attacher.o"
 	@echo "... src/pick_place_link_attacher.i"
 	@echo "... src/pick_place_link_attacher.s"
+	@echo "... src/process_points_stream.o"
+	@echo "... src/process_points_stream.i"
+	@echo "... src/process_points_stream.s"
 	@echo "... src/test_ik.o"
 	@echo "... src/test_ik.i"
 	@echo "... src/test_ik.s"
+	@echo "... src/test_pick_care.o"
+	@echo "... src/test_pick_care.i"
+	@echo "... src/test_pick_care.s"
+	@echo "... src/test_pick_care_waypoints.o"
+	@echo "... src/test_pick_care_waypoints.i"
+	@echo "... src/test_pick_care_waypoints.s"
 .PHONY : help
 
 

@@ -5,6 +5,9 @@
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/pick_place_fake_gripping.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/pick_place_link_attacher.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/attach.dir
+/home/fra/master_ws_test/build/cobot_ik/CMakeFiles/process_points_stream.dir
+/home/fra/master_ws_test/build/cobot_ik/CMakeFiles/test_pick_care_waypoints.dir
+/home/fra/master_ws_test/build/cobot_ik/CMakeFiles/test_pick_care.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/test.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/edit_cache.dir
 /home/fra/master_ws_test/build/cobot_ik/CMakeFiles/rebuild_cache.dir

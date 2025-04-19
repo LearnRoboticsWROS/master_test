@@ -38,7 +38,7 @@ public:
 
     void close_gripper()
     {
-        gripper.setJointValueTarget("finger_right_joint", 0.01);
+        gripper.setJointValueTarget("finger_right_joint", 0.02);
         gripper.move();
     }
 
@@ -83,11 +83,17 @@ public:
 
     void pick()
     {
+        
+        move_group.setMaxVelocityScalingFactor(1);
+        move_group.setMaxAccelerationScalingFactor(1);
+        move_group.setPlanningTime(10.0);  
+        move_group.allowReplanning(true);  
+        move_group.setGoalTolerance(0.03); 
         // Creazione della posa target per il pick
         geometry_msgs::msg::Pose pick_pose;
         tf2::Quaternion orientation;
         
-        orientation.setRPY(-tau/4, 0.225, 0);
+        orientation.setRPY(-1.57, 0.225, 0);
         pick_pose.orientation = tf2::toMsg(orientation);
         pick_pose.position.x = 0.6;
         pick_pose.position.y = 0.0;
@@ -115,17 +121,17 @@ public:
             rclcpp::sleep_for(std::chrono::seconds(1));
 
             
-            RCLCPP_INFO(logger, "Sollevamento post-pick...");
-            geometry_msgs::msg::Pose post_pick_pose = pick_pose;
-            post_pick_pose.position.z += 0.1; // Alza di 10 cm
-            move_group.setPoseTarget(post_pick_pose, "picking_point");
+            // RCLCPP_INFO(logger, "Sollevamento post-pick...");
+            // geometry_msgs::msg::Pose post_pick_pose = pick_pose;
+            // post_pick_pose.position.z += 0.1; // Alza di 10 cm
+            // move_group.setPoseTarget(post_pick_pose, "picking_point");
 
-            if (move_group.move() != moveit::core::MoveItErrorCode::SUCCESS) {
-                RCLCPP_ERROR(logger, "Sollevamento post-pick fallito!");
-                return;
-            }
+            // if (move_group.move() != moveit::core::MoveItErrorCode::SUCCESS) {
+            //     RCLCPP_ERROR(logger, "Sollevamento post-pick fallito!");
+            //     return;
+            // }
 
-            RCLCPP_INFO(logger, "Post-pick completato, pronto per il place!");
+            // RCLCPP_INFO(logger, "Post-pick completato, pronto per il place!");
         }
         else
         {
@@ -136,14 +142,20 @@ public:
 
     void place()
     {
+        move_group.setMaxVelocityScalingFactor(1);
+        move_group.setMaxAccelerationScalingFactor(1);
+        move_group.setPlanningTime(10.0);  
+        move_group.allowReplanning(true);  
+        move_group.setGoalTolerance(0.03); 
+
         // Creazione della posa target per il pick
         geometry_msgs::msg::Pose place_pose;
         tf2::Quaternion orientation;
-        orientation.setRPY(0, 0, 0);
+        orientation.setRPY(-3.14, 0, -3.14);
         place_pose.orientation = tf2::toMsg(orientation);
-        place_pose.position.x = -0.5;
-        place_pose.position.y = -0.5;
-        place_pose.position.z = 0.5;
+        place_pose.position.x = 0.088;
+        place_pose.position.y = 0.751;
+        place_pose.position.z = 0.386;
 
         move_group.setPoseTarget(place_pose, "picking_point");
 

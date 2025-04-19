@@ -7,6 +7,7 @@
 /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/conveyor/model.config
 /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/object_pick/model.sdf
 /home/fra/master_ws_test/install/ind_environment/share/ind_environment/models/object_pick/model.config
+/home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/patient_env.world
 /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace.world
 /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace_object.world
 /home/fra/master_ws_test/install/ind_environment/share/ind_environment/worlds/pick_and_place_workplace_cube.world
