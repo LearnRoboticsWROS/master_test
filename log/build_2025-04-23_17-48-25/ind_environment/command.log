@@ -1,0 +1,1 @@
+Invoking command in '/home/fra/master_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_test/build/ind_environment -- -j16 -l16

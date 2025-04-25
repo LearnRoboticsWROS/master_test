@@ -1,0 +1,161 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Found linkattacher_msgs: 0.0.0 (/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+-- Found ros2_linkattacher: 0.0.0 (/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/cmake)
+-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Gazebo version: 11.10
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fra/master_ws_test/build/cobot_ik
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[35m[1mConsolidate compiler generated dependencies of target attach[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[35m[1mConsolidate compiler generated dependencies of target process_points_stream[0m
+[35m[1mConsolidate compiler generated dependencies of target test_pick_care[0m
+[35m[1mConsolidate compiler generated dependencies of target test_pick_care_waypoints[0m
+[  6%] [32mBuilding CXX object CMakeFiles/attach.dir/src/attach.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/test_pick_care.dir/src/test_pick_care.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/test_pick_care_waypoints.dir/src/test_pick_care_waypoints.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/process_points_stream.dir/src/process_points_stream.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable attach[0m
+[ 56%] Built target attach
+[ 62%] [32m[1mLinking CXX executable test_ik[0m
+[ 68%] [32m[1mLinking CXX executable pick_place[0m
+[ 68%] Built target pick_place
+[ 68%] Built target test_ik
+[ 75%] [32m[1mLinking CXX executable pick_place_link_attacher[0m
+[ 81%] [32m[1mLinking CXX executable test_pick_care[0m
+[ 87%] [32m[1mLinking CXX executable pick_place_fake_gripping[0m
+[ 87%] Built target pick_place_link_attacher
+[ 87%] Built target pick_place_fake_gripping
+[ 87%] Built target test_pick_care
+[ 93%] [32m[1mLinking CXX executable process_points_stream[0m
+[100%] [32m[1mLinking CXX executable test_pick_care_waypoints[0m
+[100%] Built target process_points_stream
+[100%] Built target test_pick_care_waypoints
+-- Install configuration: ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik" to ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place" to ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping" to ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher" to ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach" to ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/process_points_stream
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/process_points_stream" to ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care_waypoints
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care_waypoints" to ""
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care
+-- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care" to ""
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+-- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+-- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml

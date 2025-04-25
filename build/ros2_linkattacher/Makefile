@@ -210,19 +210,6 @@ gazebo_link_attacher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_link_attacher.dir/build.make CMakeFiles/gazebo_link_attacher.dir/build
 .PHONY : gazebo_link_attacher/fast
 
-#=============================================================================
-# Target rules for targets named gazebo_link_attacher_server
-
-# Build rule for target.
-gazebo_link_attacher_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gazebo_link_attacher_server
-.PHONY : gazebo_link_attacher_server
-
-# fast build rule for target.
-gazebo_link_attacher_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_link_attacher_server.dir/build.make CMakeFiles/gazebo_link_attacher_server.dir/build
-.PHONY : gazebo_link_attacher_server/fast
-
 src/gazebo_link_attacher.o: src/gazebo_link_attacher.cpp.o
 .PHONY : src/gazebo_link_attacher.o
 
@@ -247,30 +234,6 @@ src/gazebo_link_attacher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_link_attacher.dir/build.make CMakeFiles/gazebo_link_attacher.dir/src/gazebo_link_attacher.cpp.s
 .PHONY : src/gazebo_link_attacher.cpp.s
 
-src/gazebo_link_attacher_server.o: src/gazebo_link_attacher_server.cpp.o
-.PHONY : src/gazebo_link_attacher_server.o
-
-# target to build an object file
-src/gazebo_link_attacher_server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_link_attacher_server.dir/build.make CMakeFiles/gazebo_link_attacher_server.dir/src/gazebo_link_attacher_server.cpp.o
-.PHONY : src/gazebo_link_attacher_server.cpp.o
-
-src/gazebo_link_attacher_server.i: src/gazebo_link_attacher_server.cpp.i
-.PHONY : src/gazebo_link_attacher_server.i
-
-# target to preprocess a source file
-src/gazebo_link_attacher_server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_link_attacher_server.dir/build.make CMakeFiles/gazebo_link_attacher_server.dir/src/gazebo_link_attacher_server.cpp.i
-.PHONY : src/gazebo_link_attacher_server.cpp.i
-
-src/gazebo_link_attacher_server.s: src/gazebo_link_attacher_server.cpp.s
-.PHONY : src/gazebo_link_attacher_server.s
-
-# target to generate assembly for a file
-src/gazebo_link_attacher_server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_link_attacher_server.dir/build.make CMakeFiles/gazebo_link_attacher_server.dir/src/gazebo_link_attacher_server.cpp.s
-.PHONY : src/gazebo_link_attacher_server.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,13 +250,9 @@ help:
 	@echo "... ros2_linkattacher_uninstall"
 	@echo "... uninstall"
 	@echo "... gazebo_link_attacher"
-	@echo "... gazebo_link_attacher_server"
 	@echo "... src/gazebo_link_attacher.o"
 	@echo "... src/gazebo_link_attacher.i"
 	@echo "... src/gazebo_link_attacher.s"
-	@echo "... src/gazebo_link_attacher_server.o"
-	@echo "... src/gazebo_link_attacher_server.i"
-	@echo "... src/gazebo_link_attacher_server.s"
 .PHONY : help
 
 

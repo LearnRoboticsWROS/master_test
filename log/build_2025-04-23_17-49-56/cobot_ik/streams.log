@@ -1,0 +1,165 @@
+[0.020s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j16 -l16
+[0.055s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.143s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.151s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.169s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.321s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.343s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.361s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.362s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.443s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.475s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.496s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.530s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.553s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.638s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.658s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.672s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.692s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[0.703s] -- Found linkattacher_msgs: 0.0.0 (/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[0.709s] -- Found ros2_linkattacher: 0.0.0 (/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/cmake)
+[0.709s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.737s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.748s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.756s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.757s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.761s] -- Searching for dependencies of ignition-math6
+[0.761s] -- Looking for OGRE...
+[0.767s] -- Found Ogre Ghadamon (1.9.0)
+[0.767s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.774s] -- Looking for OGRE_Paging...
+[0.774s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.774s] -- Looking for OGRE_Terrain...
+[0.774s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.775s] -- Looking for OGRE_Property...
+[0.775s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.775s] -- Looking for OGRE_RTShaderSystem...
+[0.775s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.775s] -- Looking for OGRE_Volume...
+[0.775s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.775s] -- Looking for OGRE_Overlay...
+[0.775s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.867s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.867s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.868s] -- Searching for dependencies of ignition-transport8
+[0.883s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.892s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.897s] -- Checking for module 'libzmq >= 4'
+[0.914s] --   Found libzmq , version 4.3.4
+[0.966s] -- Checking for module 'uuid'
+[0.981s] --   Found uuid, version 2.37.2
+[1.026s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.026s] -- Searching for dependencies of ignition-msgs5
+[1.043s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.050s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.050s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.051s] -- Searching for dependencies of ignition-common3
+[1.051s] -- Looking for dlfcn.h - found
+[1.051s] -- Looking for libdl - found
+[1.061s] -- Searching for <ignition-common3> component [graphics]
+[1.061s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.062s] -- Searching for dependencies of ignition-common3-graphics
+[1.062s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.063s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.063s] -- Searching for dependencies of ignition-fuel_tools4
+[1.096s] -- Checking for module 'jsoncpp'
+[1.114s] --   Found jsoncpp, version 1.9.5
+[1.158s] -- Checking for module 'libzip'
+[1.174s] --   Found libzip, version 1.7.3
+[1.215s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.215s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.215s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.217s] -- Gazebo version: 11.10
+[1.219s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.255s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.278s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.542s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.549s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.667s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.674s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.680s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.791s] -- Found Qhull version 8.0.2
+[1.906s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.021s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.039s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.130s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.131s] -- Configured cppcheck include dirs: 
+[2.131s] -- Configured cppcheck exclude dirs and/or files: 
+[2.131s] -- Added test 'lint_cmake' to check CMake code style
+[2.132s] -- Added test 'uncrustify' to check C / C++ code style
+[2.132s] -- Configured uncrustify additional arguments: 
+[2.132s] -- Added test 'xmllint' to check XML markup files
+[2.133s] -- Configuring done
+[2.322s] -- Generating done
+[2.365s] -- Build files have been written to: /home/fra/master_ws_test/build/cobot_ik
+[2.438s] [35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[2.438s] [35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[2.438s] [35m[1mConsolidate compiler generated dependencies of target attach[0m
+[2.439s] [35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[2.439s] [35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[2.441s] [35m[1mConsolidate compiler generated dependencies of target process_points_stream[0m
+[2.441s] [35m[1mConsolidate compiler generated dependencies of target test_pick_care[0m
+[2.443s] [35m[1mConsolidate compiler generated dependencies of target test_pick_care_waypoints[0m
+[2.464s] [  6%] [32mBuilding CXX object CMakeFiles/attach.dir/src/attach.cpp.o[0m
+[2.470s] [ 18%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[2.471s] [ 18%] [32mBuilding CXX object CMakeFiles/pick_place_fake_gripping.dir/src/pick_place_fake_gripping.cpp.o[0m
+[2.471s] [ 25%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[2.471s] [ 31%] [32mBuilding CXX object CMakeFiles/pick_place_link_attacher.dir/src/pick_place_link_attacher.cpp.o[0m
+[2.472s] [ 37%] [32mBuilding CXX object CMakeFiles/test_pick_care.dir/src/test_pick_care.cpp.o[0m
+[2.474s] [ 43%] [32mBuilding CXX object CMakeFiles/test_pick_care_waypoints.dir/src/test_pick_care_waypoints.cpp.o[0m
+[2.475s] [ 50%] [32mBuilding CXX object CMakeFiles/process_points_stream.dir/src/process_points_stream.cpp.o[0m
+[5.685s] [ 56%] [32m[1mLinking CXX executable attach[0m
+[6.294s] [ 56%] Built target attach
+[9.603s] [ 62%] [32m[1mLinking CXX executable test_ik[0m
+[9.772s] [ 68%] [32m[1mLinking CXX executable pick_place[0m
+[10.073s] [ 68%] Built target pick_place
+[10.239s] [ 68%] Built target test_ik
+[10.782s] [ 75%] [32m[1mLinking CXX executable pick_place_link_attacher[0m
+[10.846s] [ 81%] [32m[1mLinking CXX executable test_pick_care[0m
+[10.908s] [ 87%] [32m[1mLinking CXX executable pick_place_fake_gripping[0m
+[11.157s] [ 87%] Built target pick_place_link_attacher
+[11.286s] [ 87%] Built target pick_place_fake_gripping
+[11.527s] [ 87%] Built target test_pick_care
+[13.633s] [ 93%] [32m[1mLinking CXX executable process_points_stream[0m
+[14.567s] [100%] [32m[1mLinking CXX executable test_pick_care_waypoints[0m
+[14.695s] [100%] Built target process_points_stream
+[15.457s] [100%] Built target test_pick_care_waypoints
+[15.468s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j16 -l16
+[15.471s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[15.477s] -- Install configuration: ""
+[15.477s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+[15.478s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik" to ""
+[15.478s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+[15.479s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place" to ""
+[15.479s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+[15.480s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping" to ""
+[15.480s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher
+[15.482s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher" to ""
+[15.482s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach
+[15.483s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach" to ""
+[15.483s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/process_points_stream
+[15.487s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/process_points_stream" to ""
+[15.487s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care_waypoints
+[15.491s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care_waypoints" to ""
+[15.491s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care
+[15.492s] -- Set runtime path of "/home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care" to ""
+[15.493s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+[15.493s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+[15.493s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+[15.493s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+[15.493s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+[15.493s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+[15.493s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+[15.493s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+[15.493s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+[15.493s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+[15.494s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+[15.494s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+[15.494s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+[15.494s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+[15.494s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml
+[15.496s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik

@@ -1,0 +1,44 @@
+[0.022s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/ur_simulation_gazebo:/home/fra/master_ws_test/install/ur_description:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j16 -l16
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target attach[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target test_ik[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target pick_place_fake_gripping[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target pick_place_link_attacher[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target test_pick_care_waypoints[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target test_pick_care[0m
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target process_points_stream[0m
+[0.105s] [ 12%] Built target attach
+[0.115s] [ 25%] Built target test_ik
+[0.116s] [ 37%] Built target pick_place_fake_gripping
+[0.116s] [ 50%] Built target pick_place
+[0.116s] [ 62%] Built target pick_place_link_attacher
+[0.117s] [ 75%] Built target test_pick_care_waypoints
+[0.119s] [ 87%] Built target test_pick_care
+[0.120s] [100%] Built target process_points_stream
+[0.133s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/ur_simulation_gazebo:/home/fra/master_ws_test/install/ur_description:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j16 -l16
+[0.135s] Invoking command in '/home/fra/master_ws_test/build/cobot_ik': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/ur_simulation_gazebo:/home/fra/master_ws_test/install/ur_description:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[0.142s] -- Install configuration: ""
+[0.142s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_ik
+[0.142s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place
+[0.143s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_fake_gripping
+[0.143s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/pick_place_link_attacher
+[0.143s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/attach
+[0.143s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/process_points_stream
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care_waypoints
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/lib/cobot_ik/test_pick_care
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/package_run_dependencies/cobot_ik
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/parent_prefix_path/cobot_ik
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.sh
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/ament_prefix_path.dsv
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.sh
+[0.144s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/environment/path.dsv
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.bash
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.sh
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.zsh
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/local_setup.dsv
+[0.145s] -- Installing: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/ament_index/resource_index/packages/cobot_ik
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig.cmake
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/cmake/cobot_ikConfig-version.cmake
+[0.145s] -- Up-to-date: /home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.xml
+[0.147s] Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_ws_test/install/ur_simulation_gazebo:/home/fra/master_ws_test/install/ur_description:/home/fra/master_ws_test/install/six_arm_moveit_config:/home/fra/master_ws_test/install/cobot_moveit_config:/home/fra/master_ws_test/install/cobot_camera_moveit_config:/home/fra/master_ws_test/install/arm_moveit_config:/home/fra/master_ws_test/install/six_arm:/home/fra/master_ws_test/install/cobot_ik:/home/fra/master_ws_test/install/realsense2_description:/home/fra/master_ws_test/install/realsense2_camera:/home/fra/master_ws_test/install/realsense2_camera_msgs:/home/fra/master_ws_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:/home/fra/master_ws_test/install/realsense2_camera/lib:/home/fra/master_ws_test/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik

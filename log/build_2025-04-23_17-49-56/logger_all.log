@@ -1,0 +1,648 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cb0dbb56770>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cb0dbb562c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cb0dbb562c0>>, mixin_verb=('build',))
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fra/master_ws_test'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/linkattacher_msgs) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_LinkAttacher/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/IFRA_LinkAttacher/ros2_LinkAttacher) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IFRA_LinkAttacher/ros2_LinkAttacher' with type 'ros.ament_cmake' and name 'ros2_linkattacher'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_moveit_config' with type 'ros.ament_cmake' and name 'arm_moveit_config'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_camera_moveit_config) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cobot_camera_moveit_config' with type 'ros.ament_cmake' and name 'cobot_camera_moveit_config'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_ik) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cobot_ik' with type 'ros.ament_cmake' and name 'cobot_ik'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ind_environment) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ind_environment' with type 'ros.ament_cmake' and name 'ind_environment'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/six_arm' with type 'ros.ament_cmake' and name 'six_arm'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_arm_moveit_config) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/six_arm_moveit_config' with type 'ros.ament_cmake' and name 'six_arm_moveit_config'
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.199s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/fra/master_test/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/ur_simulation_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/ur_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/six_arm_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/cobot_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/cobot_camera_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/arm_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/six_arm' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/cobot_ik' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/ros2_linkattacher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/realsense2_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/realsense2_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/realsense2_camera_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/linkattacher_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/fra/master_test/install/ind_environment' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/ur_simulation_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/ur_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/six_arm_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/cobot_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/cobot_camera_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/arm_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/six_arm' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/cobot_ik' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/ros2_linkattacher' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/realsense2_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/realsense2_camera' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/realsense2_camera_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/linkattacher_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/fra/master_test/install/ind_environment' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ind_environment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'ind_environment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/ind_environment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/ind_environment', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/ind_environment', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/IFRA_LinkAttacher/linkattacher_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'six_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'six_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/six_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/six_arm', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/six_arm', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'arm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/arm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/arm_moveit_config', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/arm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'cobot_camera_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'cobot_camera_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/cobot_camera_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/cobot_camera_moveit_config', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/cobot_camera_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_linkattacher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/ros2_linkattacher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/ros2_linkattacher', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/IFRA_LinkAttacher/ros2_LinkAttacher', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'six_arm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'six_arm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/six_arm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/six_arm_moveit_config', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/six_arm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'cobot_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'cobot_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fra/master_ws_test/build/cobot_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fra/master_ws_test/install/cobot_ik', 'merge_install': False, 'path': '/home/fra/master_ws_test/src/cobot_ik', 'symlink_install': False, 'test_result_base': None}
+[0.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/six_arm' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/six_arm'
+[0.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/IFRA_LinkAttacher/linkattacher_msgs' with build type 'ament_cmake'
+[0.239s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/IFRA_LinkAttacher/linkattacher_msgs'
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/ind_environment' with build type 'ament_cmake'
+[0.242s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/ind_environment'
+[0.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j16 -l16
+[0.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/linkattacher_msgs -- -j16 -l16
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j16 -l16
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/ind_environment -- -j16 -l16
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/ind_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment
+[0.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ind_environment)
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/ind_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/ind_environment
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment' for CMake module files
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment' for CMake config files
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('ind_environment', 'cmake_prefix_path')
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.ps1'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.sh'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/lib/pkgconfig/ind_environment.pc'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/lib/python3.10/site-packages'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.sh'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.bash'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.zsh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/ind_environment/share/colcon-core/packages/ind_environment)
+[0.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ind_environment)
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment' for CMake module files
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment' for CMake config files
+[0.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('ind_environment', 'cmake_prefix_path')
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/hook/cmake_prefix_path.sh'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/lib/pkgconfig/ind_environment.pc'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/lib/python3.10/site-packages'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ind_environment/bin'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.bash'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ind_environment/share/ind_environment/package.zsh'
+[0.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/ind_environment/share/colcon-core/packages/ind_environment)
+[2.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/linkattacher_msgs -- -j16 -l16
+[2.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/linkattacher_msgs
+[2.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[2.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/linkattacher_msgs
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs' for CMake module files
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs' for CMake config files
+[2.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/lib'
+[2.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/bin'
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/lib/python3.10/site-packages'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/bin'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[2.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[2.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[2.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs' for CMake module files
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs' for CMake config files
+[2.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/lib'
+[2.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/bin'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/lib/python3.10/site-packages'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/linkattacher_msgs/bin'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[2.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[2.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[2.211s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/IFRA_LinkAttacher/ros2_LinkAttacher' with build type 'ament_cmake'
+[2.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/IFRA_LinkAttacher/ros2_LinkAttacher'
+[2.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fra/master_ws_test/build/ros2_linkattacher -- -j16 -l16
+[4.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm -- -j16 -l16
+[4.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/six_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm
+[4.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(six_arm)
+[4.279s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm' for CMake module files
+[4.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/six_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm' for CMake config files
+[4.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_arm', 'cmake_prefix_path')
+[4.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.ps1'
+[4.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.dsv'
+[4.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.sh'
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/lib'
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/bin'
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/lib/pkgconfig/six_arm.pc'
+[4.282s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/lib/python3.10/site-packages'
+[4.282s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/bin'
+[4.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.ps1'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.dsv'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.sh'
+[4.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.bash'
+[4.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.zsh'
+[4.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm/share/colcon-core/packages/six_arm)
+[4.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(six_arm)
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm' for CMake module files
+[4.287s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm' for CMake config files
+[4.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_arm', 'cmake_prefix_path')
+[4.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.ps1'
+[4.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.dsv'
+[4.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm/share/six_arm/hook/cmake_prefix_path.sh'
+[4.289s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/lib'
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/bin'
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/lib/pkgconfig/six_arm.pc'
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/lib/python3.10/site-packages'
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm/bin'
+[4.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.ps1'
+[4.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.dsv'
+[4.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.sh'
+[4.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.bash'
+[4.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm/share/six_arm/package.zsh'
+[4.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm/share/colcon-core/packages/six_arm)
+[4.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/arm_moveit_config' with build type 'ament_cmake'
+[4.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/arm_moveit_config'
+[4.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/cobot_camera_moveit_config' with build type 'ament_cmake'
+[4.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/cobot_camera_moveit_config'
+[4.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/six_arm_moveit_config' with build type 'ament_cmake'
+[4.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/six_arm_moveit_config'
+[4.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/arm_moveit_config': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/arm_moveit_config -- -j16 -l16
+[4.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_camera_moveit_config -- -j16 -l16
+[4.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/six_arm_moveit_config': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm_moveit_config -- -j16 -l16
+[4.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/six_arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/six_arm_moveit_config -- -j16 -l16
+[4.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/six_arm_moveit_config': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm_moveit_config
+[4.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_camera_moveit_config -- -j16 -l16
+[4.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_camera_moveit_config
+[4.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_test/build/arm_moveit_config -- -j16 -l16
+[4.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/arm_moveit_config': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/arm_moveit_config
+[4.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(six_arm_moveit_config)
+[4.540s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake module files
+[4.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/six_arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/six_arm_moveit_config
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake config files
+[4.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_arm_moveit_config', 'cmake_prefix_path')
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[4.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.sh'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/pkgconfig/six_arm_moveit_config.pc'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/python3.10/site-packages'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[4.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.ps1'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.dsv'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.sh'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.bash'
+[4.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.zsh'
+[4.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm_moveit_config/share/colcon-core/packages/six_arm_moveit_config)
+[4.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(six_arm_moveit_config)
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake module files
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config' for CMake config files
+[4.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_arm_moveit_config', 'cmake_prefix_path')
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/hook/cmake_prefix_path.sh'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/pkgconfig/six_arm_moveit_config.pc'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/lib/python3.10/site-packages'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/six_arm_moveit_config/bin'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.ps1'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.dsv'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.sh'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.bash'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/six_arm_moveit_config/share/six_arm_moveit_config/package.zsh'
+[4.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/six_arm_moveit_config/share/colcon-core/packages/six_arm_moveit_config)
+[4.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_camera_moveit_config)
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake module files
+[4.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/cobot_camera_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_camera_moveit_config
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake config files
+[4.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_camera_moveit_config', 'cmake_prefix_path')
+[4.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.ps1'
+[4.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.dsv'
+[4.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.sh'
+[4.553s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[4.553s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/pkgconfig/cobot_camera_moveit_config.pc'
+[4.553s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/python3.10/site-packages'
+[4.553s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.ps1'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.dsv'
+[4.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.sh'
+[4.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.bash'
+[4.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.zsh'
+[4.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/colcon-core/packages/cobot_camera_moveit_config)
+[4.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_camera_moveit_config)
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake module files
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config' for CMake config files
+[4.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_camera_moveit_config', 'cmake_prefix_path')
+[4.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.ps1'
+[4.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.dsv'
+[4.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/hook/cmake_prefix_path.sh'
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/pkgconfig/cobot_camera_moveit_config.pc'
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/lib/python3.10/site-packages'
+[4.557s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_camera_moveit_config/bin'
+[4.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.ps1'
+[4.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.dsv'
+[4.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.sh'
+[4.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.bash'
+[4.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/cobot_camera_moveit_config/package.zsh'
+[4.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/cobot_camera_moveit_config/share/colcon-core/packages/cobot_camera_moveit_config)
+[4.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_moveit_config)
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake module files
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake config files
+[4.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/six_arm:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_test/build/arm_moveit_config
+[4.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_moveit_config', 'cmake_prefix_path')
+[4.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.ps1'
+[4.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.dsv'
+[4.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.sh'
+[4.562s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[4.562s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/pkgconfig/arm_moveit_config.pc'
+[4.562s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/python3.10/site-packages'
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[4.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.ps1'
+[4.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.dsv'
+[4.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.sh'
+[4.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.bash'
+[4.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.zsh'
+[4.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/arm_moveit_config/share/colcon-core/packages/arm_moveit_config)
+[4.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_moveit_config)
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake module files
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config' for CMake config files
+[4.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_moveit_config', 'cmake_prefix_path')
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.ps1'
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.dsv'
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.sh'
+[4.566s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[4.566s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/pkgconfig/arm_moveit_config.pc'
+[4.566s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/lib/python3.10/site-packages'
+[4.566s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/arm_moveit_config/bin'
+[4.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.ps1'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.dsv'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.sh'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.bash'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/arm_moveit_config/share/arm_moveit_config/package.zsh'
+[4.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/arm_moveit_config/share/colcon-core/packages/arm_moveit_config)
+[12.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fra/master_ws_test/build/ros2_linkattacher -- -j16 -l16
+[12.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fra/master_ws_test/build/ros2_linkattacher
+[12.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[12.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fra/master_ws_test/build/ros2_linkattacher
+[12.051s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher' for CMake module files
+[12.052s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher' for CMake config files
+[12.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[12.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[12.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[12.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[12.055s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/lib'
+[12.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[12.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[12.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[12.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[12.057s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/bin'
+[12.057s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[12.058s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/lib/python3.10/site-packages'
+[12.058s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/bin'
+[12.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[12.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[12.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[12.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[12.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[12.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[12.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[12.063s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher' for CMake module files
+[12.063s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher' for CMake config files
+[12.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[12.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[12.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[12.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/lib'
+[12.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[12.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[12.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[12.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[12.068s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/bin'
+[12.068s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[12.068s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/lib/python3.10/site-packages'
+[12.069s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/ros2_linkattacher/bin'
+[12.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[12.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[12.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[12.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[12.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[12.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fra/master_ws_test/src/cobot_ik' with build type 'ament_cmake'
+[12.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fra/master_ws_test/src/cobot_ik'
+[12.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.074s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/cobot_ik': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j16 -l16
+[27.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fra/master_ws_test/build/cobot_ik -- -j16 -l16
+[27.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fra/master_ws_test/build/cobot_ik': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[27.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_ik)
+[27.571s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik' for CMake module files
+[27.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fra/master_ws_test/build/cobot_ik' returned '0': AMENT_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fra/master_ws_test/install/ros2_linkattacher:/home/fra/master_ws_test/install/linkattacher_msgs:/home/fra/master_test/install/ur_simulation_gazebo:/home/fra/master_test/install/ur_description:/home/fra/master_test/install/six_arm_moveit_config:/home/fra/master_test/install/cobot_moveit_config:/home/fra/master_test/install/cobot_camera_moveit_config:/home/fra/master_test/install/arm_moveit_config:/home/fra/master_test/install/six_arm:/home/fra/master_test/install/cobot_ik:/home/fra/master_test/install/ros2_linkattacher:/home/fra/master_test/install/realsense2_description:/home/fra/master_test/install/realsense2_camera:/home/fra/master_test/install/realsense2_camera_msgs:/home/fra/master_test/install/linkattacher_msgs:/home/fra/master_test/install/ind_environment:/opt/ros/humble LD_LIBRARY_PATH=/home/fra/master_ws_test/install/ros2_linkattacher/lib:/home/fra/master_ws_test/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fra/master_ws_test/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fra/master_ws_test/build/cobot_ik
+[27.572s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik' for CMake config files
+[27.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_ik', 'cmake_prefix_path')
+[27.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/hook/cmake_prefix_path.ps1'
+[27.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/hook/cmake_prefix_path.dsv'
+[27.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/hook/cmake_prefix_path.sh'
+[27.575s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/lib'
+[27.575s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/bin'
+[27.575s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/lib/pkgconfig/cobot_ik.pc'
+[27.576s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/lib/python3.10/site-packages'
+[27.576s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/bin'
+[27.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.ps1'
+[27.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv'
+[27.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.sh'
+[27.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.bash'
+[27.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.zsh'
+[27.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/cobot_ik/share/colcon-core/packages/cobot_ik)
+[27.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_ik)
+[27.581s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik' for CMake module files
+[27.582s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik' for CMake config files
+[27.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_ik', 'cmake_prefix_path')
+[27.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/hook/cmake_prefix_path.ps1'
+[27.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/hook/cmake_prefix_path.dsv'
+[27.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/hook/cmake_prefix_path.sh'
+[27.584s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/lib'
+[27.584s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/bin'
+[27.584s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/lib/pkgconfig/cobot_ik.pc'
+[27.585s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/lib/python3.10/site-packages'
+[27.585s] Level 1:colcon.colcon_core.environment:checking '/home/fra/master_ws_test/install/cobot_ik/bin'
+[27.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.ps1'
+[27.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.dsv'
+[27.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.sh'
+[27.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.bash'
+[27.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/fra/master_ws_test/install/cobot_ik/share/cobot_ik/package.zsh'
+[27.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fra/master_ws_test/install/cobot_ik/share/colcon-core/packages/cobot_ik)
+[27.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.590s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.599s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.599s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.599s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.616s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/master_ws_test/install/local_setup.ps1'
+[27.618s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fra/master_ws_test/install/_local_setup_util_ps1.py'
+[27.620s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/master_ws_test/install/setup.ps1'
+[27.622s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/master_ws_test/install/local_setup.sh'
+[27.623s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fra/master_ws_test/install/_local_setup_util_sh.py'
+[27.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/master_ws_test/install/setup.sh'
+[27.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/master_ws_test/install/local_setup.bash'
+[27.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/master_ws_test/install/setup.bash'
+[27.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fra/master_ws_test/install/local_setup.zsh'
+[27.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fra/master_ws_test/install/setup.zsh'
